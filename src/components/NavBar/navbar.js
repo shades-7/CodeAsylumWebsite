@@ -8,7 +8,9 @@ const navbar = () =>{
         <>
             <div className={styles.navbar}>
                 <img src={ Logo } alt="Logo"/>
-                <Link to={``}>More posts</Link>
+                <Link to={``} className={styles.link}>Bootcamp</Link>
+                <Link to={``} className={styles.link}>Alumni</Link>
+                <Link to={``} className={styles.link}>Mentors</Link>
             </div>
         </>
     )
