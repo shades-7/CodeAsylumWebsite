@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    z-index:100;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height:100px;
+    width: 100%; 
+    padding: 10px 32px;
+    img {
+        height:80%;
+    }   
+}
