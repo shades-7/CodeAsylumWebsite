@@ -1,6 +1,6 @@
 import React from "react"
 // import { Link } from "gatsby"
-import Landing from '../pages/Landing/landing'
+import Home from '../pages/Home/home'
 
 
 import SEO from "../components/seo"
@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <>
     <SEO title="Home" />
-    <Landing />
+    <Home />
 
   </>
 )

@@ -1,16 +1,11 @@
 import React from 'react';
 import styles from './landing.module.scss';
-import NavBar from '../../components/NavBar/navbar'
-
-import Art from '../../images/art.png';
 
 
-
+import Art from '../../images/art.png'
 const App =() =>{
     return(
         <>
-         <div className={styles.landing}>
-            <NavBar />
             <div className={styles.Container1}>
                 <div className={styles.Child1}>
                     <div className={styles.heading}>
@@ -33,7 +28,6 @@ const App =() =>{
                     <img src={ Art } alt="Art Work" width='100%'/>
                 </div>
             </div>
-         </div>
         </>
     )
 
@@ -42,4 +36,3 @@ const App =() =>{
 
 
 export default App;
-
