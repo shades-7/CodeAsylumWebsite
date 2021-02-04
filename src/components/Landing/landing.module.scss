@@ -34,6 +34,8 @@
 .subheading{
     height:10%;
     width: 70%;
+    display: flex;
+    align-items: center;
     p{
         font-family: Noto Sans;
         font-style: normal;
@@ -98,10 +100,10 @@
 //----------------------------
 //FOR WIDTH 1250px------------
 //----------------------------
-@media screen and (max-width: 1250px){
+@media(max-width: 1250px){
     .heading{
         width: 80%;
-        .p{
+        p{
             font-size: 40px;
         }
     }
@@ -121,26 +123,58 @@
     }
 }
 
-//----------------------------
-//FOR WIDTH 1000px------------
-//----------------------------
-@media screen and (max-width: 1000px){
+@media(max-width: 576px){
+    .Child1{
+        width: 100%;
+        height: 90%;
+        padding-top: 0px;
+    }
+    .Child2{
+        display: none;
+    }
     .heading{
-        .p{
-            font-size: 3px;
-            line-height: 4px;
+        height: 10%;
+        width: 80%;
+        p{
+            font-size: 30px;
+            line-height: 30px;
         }
     }
     .subheading{ 
+        height:7%;
+        width: 80%;
         p{
             font-size: 20px;
             line-height: 32px;
         }
     }
     .containt{
+        height: 5%;
+        width: 80%;
         p{
         font-size: 10px;
         line-height: 12px;
         }
     }
+    .button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:20%;
+        width: 80%;
+    }
+    .button1{
+        height:30%;
+        width:45%;
+        border: solid 3px #2E388E;
+        border-radius: 4px;
+        font-family: Noto Sans;
+        font-weight: bold;
+    }
+    .button2{
+        height:30%;
+        width:45%;
+    }
+
 }
+

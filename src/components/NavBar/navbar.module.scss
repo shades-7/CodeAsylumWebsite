@@ -13,6 +13,7 @@
     }   
 }
 .link{
+    display: block;
     margin-left: 7%;
     text-decoration: none;
     color:#484848;
@@ -22,4 +23,11 @@
 }
 .link:hover{
     border-bottom: solid 4px #2E368F;
+}
+
+
+@media(max-width: 576px){
+    .link{
+        display: none;
+    }
 }
