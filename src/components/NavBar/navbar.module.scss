@@ -8,9 +8,17 @@
     height:100px;
     width: 100%; 
     padding: 10px 32px;
-    img {
+    .logo {
         height:80%;
-    }   
+        display: block;
+    }  
+    .logoWhite{
+        display: none;
+    }
+    .menu{
+        height: 50%;
+        margin-left: 50%;
+    } 
 }
 .link{
     display: block;
@@ -30,4 +38,18 @@
     .link{
         display: none;
     }
+    .navbar{
+        background-color: #2E368F;
+        .logo {
+            display: none;
+        }  
+        .logoWhite{
+            display: block;
+            height: 70%;
+        }
+        .menu{
+            height: 30%;
+            margin-left: 60%;
+        }  
+    }   
 }
