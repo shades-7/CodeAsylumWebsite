@@ -11,10 +11,11 @@ const navbar = () =>{
         <Layout>
             <div className={styles.navbar}>
                 <img className={styles.logo} src={ Logo } alt="Logo"/>
+                
+                <Link to={`/`} className={styles.link}>Bootcamp</Link>
+                <Link to={`/`} className={styles.link}>Alumni</Link>
+                <Link to={`/`} className={styles.link}>Mentors</Link>
                 <img className={styles.logoWhite} src={ LogoWhite } alt="Logo"/>
-                <Link to={``} className={styles.link}>Bootcamp</Link>
-                <Link to={``} className={styles.link}>Alumni</Link>
-                <Link to={``} className={styles.link}>Mentors</Link>
                 <img className={styles.menu} src={ Menu } alt="Hamburger Menu" />
             </div>
         </Layout>
