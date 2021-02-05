@@ -12,8 +12,8 @@ const App =() =>{
          <div className={styles.landing}>
             <NavBar />
             <Landing />
-            <Program />
          </div>
+         <Program />
         </>
     )
 }

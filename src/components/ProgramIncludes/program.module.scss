@@ -64,3 +64,9 @@
         @include Font(Noto Sans, 0.8rem , 300 ,1rem , #000000  )
     }
 }
+
+@media(max-width: 576px){
+    .Heading{
+        @include Font(Noto Sans, 2rem , bold ,2.2rem , #000000 );
+    }
+}
