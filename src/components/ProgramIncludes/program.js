@@ -4,6 +4,7 @@ import Layout from '../layout'
 
 import Pic1 from '../../images/pic1.png'
 import Pic2 from '../../images/pic2.png'
+import Pic3 from '../../images/pic3.png'
 
 const program = () =>{
 
@@ -21,7 +22,7 @@ const program = () =>{
             "content" : "With real world projects and immersive content built in partnership with top tier companies, you’ll master the tech skills companies want."
         },
         {
-            "image" : Pic1,
+            "image" : Pic3,
             "subheading" : "Real-world projects from",
             "highlighted" : "industry experts",
             "content" : "With real world projects and immersive content built in partnership with top tier companies, you’ll master the tech skills companies want."
