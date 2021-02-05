@@ -1,0 +1,28 @@
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin Font($fontfamily, $fontsize, $fontweight, $lineheight, $color){
+    font-family: $fontfamily;
+    font-weight: $fontweight;
+    font-size: $fontsize;
+    line-height: $lineheight;
+    color: $color;
+}
+
+
+.Container{
+    width: 100%;
+    @include flexCenter(column);
+    background-color: #F4F9FE;
+    padding:20px;
+}
+
+.Heading{
+    width: 100%;
+    @include flexCenter(column);
+    @include Font(Noto Sans, 3rem , bold ,3.5rem , #000000 );
+}
