@@ -71,8 +71,21 @@
     }
     .Child1{
         @include flexCenter(column);
-        justify-content: space-around;
-        width:100%;
-        flex-wrap: wrap;
+    }
+    .Program{
+        width:90%;
+        padding-top:3rem;
+        .Img{
+            height: 100%;
+            width:40%;
+            overflow: hidden;
+        }
+        .Subheading{
+            @include Font(Noto Sans, 0.8rem , bold ,1rem , #2E388E  )
+        }
+        .Content{
+            margin-top: 1rem;
+            @include Font(Noto Sans, 0.6rem , 300 ,0.8rem , #000000  )
+        }
     }
 }
