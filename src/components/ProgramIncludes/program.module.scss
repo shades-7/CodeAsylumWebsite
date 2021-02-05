@@ -13,7 +13,6 @@
     color: $color;
 }
 
-
 .Container{
     width: 100%;
     @include flexCenter(column);
@@ -25,4 +24,42 @@
     width: 100%;
     @include flexCenter(column);
     @include Font(Noto Sans, 3rem , bold ,3.5rem , #000000 );
+}
+.Child1{
+    @include flexCenter(row);
+    justify-content: space-around;
+    padding-top:4rem;
+    width:100%;
+}
+
+.Program{
+    width:45%;
+    @include flexCenter(row);
+    .Img{
+        height: 100%;
+        width:30%;
+        overflow: hidden;
+    }
+    .Text{
+        width:50%;
+        height: 100%;
+        margin-left: 20px;
+        @include flexCenter(column);
+        justify-content: flex-start;
+    }
+    .Subheading{
+        width:100%;
+        @include flexCenter(column);
+        justify-content: flex-start;
+        align-items: flex-start;
+        @include Font(Noto Sans, 1rem , bold ,1.2rem , #2E388E  )
+    }
+    .Content{
+        width:100%;
+        @include flexCenter(column);
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 1.2rem;
+        @include Font(Noto Sans, 0.8rem , 300 ,1rem , #000000  )
+    }
 }
