@@ -28,12 +28,13 @@
 .Child1{
     @include flexCenter(row);
     justify-content: space-around;
-    padding-top:4rem;
     width:100%;
+    flex-wrap: wrap;
 }
 
 .Program{
     width:45%;
+    padding-top:4rem;
     @include flexCenter(row);
     .Img{
         height: 100%;
