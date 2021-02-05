@@ -17,7 +17,7 @@
     width: 100%;
     @include flexCenter(column);
     background-color: #F4F9FE;
-    padding:3rem;
+    padding:20px;
 }
 
 .Heading{
@@ -34,7 +34,7 @@
 
 .Program{
     width:45%;
-    padding:3rem 0 1rem 0;
+    padding-top:4rem;
     @include flexCenter(row);
     .Img{
         height: 100%;
@@ -66,9 +66,6 @@
 }
 
 @media(max-width: 576px){
-    .Container{
-        padding:2rem;
-    }
     .Heading{
         @include Font(Noto Sans, 1.5rem , bold ,1.7rem , #000000 );
     }
@@ -77,7 +74,7 @@
     }
     .Program{
         width:90%;
-        padding:2rem 0 1rem 0;
+        padding-top:3rem;
         .Img{
             height: 100%;
             width:40%;
@@ -87,7 +84,7 @@
             @include Font(Noto Sans, 0.8rem , bold ,1rem , #2E388E  )
         }
         .Content{
-            margin-top: 0.7rem;
+            margin-top: 1rem;
             @include Font(Noto Sans, 0.6rem , 300 ,0.8rem , #000000  )
         }
     }
