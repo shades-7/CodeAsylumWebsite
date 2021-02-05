@@ -67,6 +67,12 @@
 
 @media(max-width: 576px){
     .Heading{
-        @include Font(Noto Sans, 2rem , bold ,2.2rem , #000000 );
+        @include Font(Noto Sans, 1.5rem , bold ,1.7rem , #000000 );
+    }
+    .Child1{
+        @include flexCenter(column);
+        justify-content: space-around;
+        width:100%;
+        flex-wrap: wrap;
     }
 }
