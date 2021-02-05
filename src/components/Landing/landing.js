@@ -1,12 +1,17 @@
 import React from 'react';
 import styles from './landing.module.scss';
 
-
+import Pic from '../../images/pic.png'
 import Art from '../../images/art.png'
 const App =() =>{
     return(
         <>
             <div className={styles.Container1}>
+                <div className={styles.Mob}>
+                    <img src={ Pic } alt="Art Work" width='100%'/>
+                </div>
+
+
                 <div className={styles.Child1}>
                     <div className={styles.heading}>
                         <p>Start <span style={{color: "#2E368F"}}> coding </span> your future today.</p>
