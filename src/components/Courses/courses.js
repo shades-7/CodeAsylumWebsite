@@ -5,7 +5,8 @@ import Layout from "../layout"
 const courses = () => {
     return(
         <Layout>
-            
+            <div className={styles.Container}>
+            </div>
         </Layout>
     )
 }

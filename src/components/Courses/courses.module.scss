@@ -1,0 +1,12 @@
+@mixin flexcenter( $justify, $align, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction ;
+}
+
+.Container{
+    @include flexcenter(center,center ,column );
+    width:100%;
+    background-color: #fafafa;
+}
