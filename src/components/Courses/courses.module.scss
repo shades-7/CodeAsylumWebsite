@@ -7,7 +7,7 @@
     background-color: $bgcolor;
     .heading{
         width: 80%;
-        padding: 20px 0px 20px 0px;
+        padding: 20px 0px;
         @include flexcenter(center,flex-start ,column );
         p{
             @include Font(Roboto,3.5rem ,bold ,4rem ,#000000 );
