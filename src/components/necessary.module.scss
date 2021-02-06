@@ -1,3 +1,7 @@
+//-------------------------
+//-------------FUNCTION----
+//-------------------------
+
 @mixin flexcenter( $justify, $align, $direction) {
     display: flex;
     justify-content: $justify;
@@ -11,9 +15,17 @@
     line-height: $lineheight;
     color: $color;
 }
-
+//-------------------------
+//-------COLORS & FONTS------
+//-------------------------
 $bgcolor: #fafafa;
 $primarycolor: #2E388E;
+$primaryfont: 'Roboto';
+$secondaryfont: 'Noto Sans';
+
+//-------------------------
+//----------BUTTON PRIMARY-
+//-------------------------
 
 @mixin button2{
     height:40%;

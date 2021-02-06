@@ -21,6 +21,7 @@ const offline = () => {
                         <div className={styles.content}>
                             <p>Made for those with a passion for design, development and programming expertise, this course enables the average working professional to learn FullStack from scratch, with Industry-relevant projects and live exposure to both Client & Server-side Technologies like React, JavaScript, NodeJs, AWS and Git</p>
                         </div>
+                        <div className={styles.line}></div>
                         <div className={styles.comment}>
                             <p>Offline ( 28 Days )</p>
                             <button className={styles.button2}>Explore Courses</button>
