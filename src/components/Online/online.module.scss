@@ -9,7 +9,6 @@
     .Heading{
         @include flexcenter(center,center,column);
         @include Font(Roboto, 2.5rem, 700, 2.7rem, #000000);
-        padding: 1.5rem;
     }
 }
 
@@ -24,7 +23,7 @@
     width:40%;
     @include flexcenter(center,center,column);
     background-color: $primarycolor;
-    margin-bottom: 5rem;
+    margin: 2rem 0rem;
     padding: 2.5rem 2rem;
     border-radius: 10px;
     box-shadow: 0px 4px 20px rgba(181, 181, 181, 0.5);

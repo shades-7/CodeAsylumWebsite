@@ -3,6 +3,7 @@ import styles from "./courses.module.scss"
 import Layout from "../layout"
 import Offline from "../OflineBootcamps/offline"
 import Online from "../Online/online"
+import Placement from "../PlacementAssistance/placement"
 
 const courses = () => {
     return(
@@ -13,6 +14,7 @@ const courses = () => {
                 </div>
                 <Offline />
                 <Online />
+                <Placement />
             </div>
         </Layout>
     )
