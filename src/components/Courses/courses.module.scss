@@ -1,20 +1,10 @@
-@mixin flexcenter( $justify, $align, $direction) {
-    display: flex;
-    justify-content: $justify;
-    align-items: $align;
-    flex-direction: $direction ;
-}
-@mixin Font($fontfamily, $fontsize, $fontweight, $lineheight, $color){
-    font-family: $fontfamily;
-    font-weight: $fontweight;
-    font-size: $fontsize;
-    line-height: $lineheight;
-    color: $color;
-}
+
+@import "../necessary.module.scss";
+
 .Container{
     @include flexcenter(center,center ,column );
     width:100%;
-    background-color: #fafafa;
+    background-color: $bgcolor;
     .heading{
         width: 80%;
         padding: 20px 0px 20px 0px;

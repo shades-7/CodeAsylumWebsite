@@ -1,0 +1,28 @@
+@mixin flexcenter( $justify, $align, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction ;
+}
+@mixin Font($fontfamily, $fontsize, $fontweight, $lineheight, $color){
+    font-family: $fontfamily;
+    font-weight: $fontweight;
+    font-size: $fontsize;
+    line-height: $lineheight;
+    color: $color;
+}
+
+$bgcolor: #fafafa;
+$primarycolor: #2E388E;
+
+@mixin button2{
+    height:40%;
+    width:40%;
+    border:none;
+    border-radius: 4px;
+    text-decoration: none;
+    background:#2E388E;
+    color:#fafafa;
+    font-family: Noto Sans;
+    font-weight: bold;
+}

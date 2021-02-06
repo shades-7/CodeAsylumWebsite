@@ -1,0 +1,60 @@
+@import '../necessary.module.scss';
+
+.Container{
+    @include flexcenter(center,center ,column );
+    width:100%;
+    background-color: $bgcolor;
+    padding: 30px 0px;
+    .Heading{
+        @include flexcenter(center,center,column);
+        @include Font(Roboto, 2.5rem, 700, 2.7rem, #000000);
+        padding: 1.5rem;
+    }
+}
+
+.card{
+    width:80%;
+    @include flexcenter(center,center ,row);
+    background-color: #f2f2f2;
+    box-shadow: 0px 4px 15px rgba(37, 37, 37, 0.25);
+    border-radius: 20px;
+    margin-top: 2rem;
+    padding: 10px 20px;
+}
+.child1{
+    width:35%;
+    @include flexcenter(center,center,'');
+    overflow: hidden;
+    margin: 20px;
+}
+.child2{
+    width:50%;
+    @include flexcenter(center,flex-start,column);
+    margin-left: 20px;
+}
+
+.subheader{
+    width:100%;
+    @include flexcenter(center,flex-start,column);
+    @include Font(Noto Sans, 1.3rem, bold, 1.5rem, $primarycolor);
+    margin-bottom: 1rem; 
+}
+
+.content{
+   @extend .subheader;
+   @include Font(Noto Sans, 0.8rem, 400, 1rem, $primarycolor);
+   margin: 10px 0px;
+}
+
+.comment{
+    width:100%;
+    @include flexcenter(space-around,center,row);
+    @include Font(Noto Sans, 1rem, bold, 1rem, $primarycolor);
+    margin: 1rem;
+}
+
+.button2{
+    @include button2();
+    height:2.5rem;
+    width:9rem;
+}
