@@ -4,5 +4,12 @@ div{
     box-sizing: border-box;
 }
 
+@mixin flexcenter( $justify, $align, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction ;
+}
+
 // $RoboFont: "Roboto";
 // $NotoFont: "Noto Sans";
