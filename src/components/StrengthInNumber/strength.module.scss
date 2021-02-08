@@ -1,1 +1,18 @@
 @import "../necessary.module.scss";
+
+.Container{
+    @include flexcenter(center,center,column);
+    width:100%;
+    padding: 10px 20px;
+    background: #f6f6f6;
+}
+.header{
+    @include flexcenter(center,flex-start,column);
+    width:80%;
+    @include Font($primaryfont,3rem,bold,3.5,#000000);
+}
+
+.Container1{
+    @include flexcenter(center,center,row);
+    width:100%;
+}
