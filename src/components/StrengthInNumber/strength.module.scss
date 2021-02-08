@@ -26,10 +26,44 @@
     }
     .number{
         margin-bottom: 10px;
-        @include Font($primaryfont,2rem,700,1.5,#343434);
+        @include Font($secondaryfont,2rem,700,1.5,#343434);
     }
     .containt{
         margin-bottom: 10px;
         @include Font($secondaryfont,1.3rem,700,1.5,#656565);
     }
+}
+
+
+@media(max-width: 576px){
+    .header{
+        @include flexcenter(center,center,column);
+        @include Font($primaryfont,1.8rem,bold,1.7,#000000);
+        margin: 10px 0px;
+    }
+    .Container1{
+        @include flexcenter(center,center,column);
+        width:100%;
+    }
+    .Container2{
+        @include flexcenter(center,center,column);
+        width:80%;
+        margin: 30px 0px;
+        padding-top:20px;
+        background: #FEFEFE;
+        box-shadow: 0px 4px 20px rgba(181, 181, 181, 0.5);
+        border-radius: 10px;
+        .Image{
+            margin-bottom: 10px;
+        }
+        .number{
+            margin-bottom: 10px;
+            @include Font($secondaryfont,2rem,700,1.5,#343434);
+        }
+        .containt{
+            margin-bottom: 10px;
+            @include Font($secondaryfont,1.3rem,700,1.5,#656565);
+        }
+    }
+    
 }

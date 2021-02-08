@@ -16,7 +16,7 @@ const App =() =>{
             <Landing />
          </div>
          <Program />
-         <Courses />
+         {/* <Courses /> */}
          <Strength />
         </>
     )
