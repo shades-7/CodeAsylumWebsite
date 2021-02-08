@@ -16,3 +16,20 @@
     @include flexcenter(center,center,row);
     width:100%;
 }
+
+.Container2{
+    @include flexcenter(center,center,column);
+    width:20%;
+    margin-bottom: 30px;
+    .Image{
+        margin-bottom: 10px;
+    }
+    .number{
+        margin-bottom: 10px;
+        @include Font($primaryfont,2rem,700,1.5,#343434);
+    }
+    .containt{
+        margin-bottom: 10px;
+        @include Font($secondaryfont,1.3rem,700,1.5,#656565);
+    }
+}
