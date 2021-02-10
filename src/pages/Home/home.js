@@ -6,6 +6,7 @@ import Landing from '../../components/Landing/landing';
 import Program from '../../components/ProgramIncludes/program';
 import Courses from '../../components/Courses/courses';
 import Strength from '../../components/StrengthInNumber/strength';
+import Company from '../../components/Company/company'
 
 
 const App =() =>{
@@ -18,6 +19,7 @@ const App =() =>{
          <Program />
          {/* <Courses /> */}
          <Strength />
+         <Company />
         </>
     )
 }
