@@ -9,7 +9,7 @@
 .Content{
     @include flexcenter(center,center,column);
      width:80%;
-     background-color: rgb(215, 216, 223);
+     background-color: rgb(241, 241, 241);
      border-radius: 20px; 
      padding:10px 0px;
 }
@@ -28,4 +28,10 @@
     width:15%;
     margin:20px 30px;
     @include flexcenter(center,center,row);
+}
+.footer{
+    @include flexcenter(center,center,column);
+    @include Font($secondaryfont,1rem,300,2.2rem,#000000);
+    width:80%;
+    margin: 10px;
 }

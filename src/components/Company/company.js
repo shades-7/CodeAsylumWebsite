@@ -37,6 +37,9 @@ const company = () => {
                             })
                         }
                     </div>
+                    <div className={styles.footer}>
+                        <p>Many more...</p>
+                    </div>
                 </div>
             </div>
         </Layout>   
