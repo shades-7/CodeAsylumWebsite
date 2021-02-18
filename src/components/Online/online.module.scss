@@ -90,3 +90,13 @@
     }
 
 }
+
+
+@media(max-width: 576px){
+    .card{
+        flex-direction: column;
+    }
+    .child2{
+        width:100%;
+    }
+}

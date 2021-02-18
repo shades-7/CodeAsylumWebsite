@@ -13,7 +13,7 @@ const courses = () => {
                     <p>Discover our <span style = {{color: "#2E3192"}}>bootcamps</span></p>
                 </div>
                 <Offline />
-                {/* <Online /> */}
+                <Online />
                 {/* <Placement /> */}
             </div>
         </Layout>
