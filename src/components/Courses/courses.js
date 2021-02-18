@@ -14,7 +14,7 @@ const courses = () => {
                 </div>
                 <Offline />
                 <Online />
-                <Placement />
+                {/* <Placement /> */}
             </div>
         </Layout>
     )
