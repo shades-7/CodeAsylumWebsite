@@ -1,1 +1,49 @@
 @import "../necessary.module.scss";
+
+.Container{
+    @include flexcenter(space-around,center,row);
+    width:100%;
+    padding: 20px;
+    background-color: $primarycolor;
+}
+
+.Child1{
+    @include flexcenter(center,center,column);
+    width: 30%;
+}
+.logo{
+    width:30%;
+}
+.text{
+    @include Font($secondaryfont,1rem,700,1.2rem,$bgcolor);
+    @include flexcenter(center,center,column);
+    margin-bottom: 20px;
+    width:100%;
+}
+.icons{
+    margin-top: 10px;
+    @include flexcenter(space-around,center,row);
+    width:50%; 
+}
+.Child2{
+    @include flexcenter(center,center,column);
+    width: 30%;
+    margin-top: 40px;
+}
+.course{
+    @include Font($secondaryfont,1rem,400,1.2rem,$bgcolor);
+    @include flexcenter(center,flex-start,column);
+    width:100%;
+    margin-bottom: 15px;
+}
+
+@media(max-width: 576px){
+    .Container{
+        flex-direction: column;
+    }
+    .Child1,.Child2,.text{
+        width: 100%;
+        align-items: flex-start;
+    }
+
+}
