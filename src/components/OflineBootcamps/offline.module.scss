@@ -16,7 +16,7 @@
     width:70%;
     @include flexcenter(center,center ,row);
     background-color: #FEFEFE;
-        box-shadow: 0px 4px 20px rgba(181, 181, 181, 0.5);
+    box-shadow: 0px 4px 20px rgba(181, 181, 181, 0.5);
     border-radius: 20px;
     margin-top: 2rem;
     padding: 10px 20px;
@@ -63,4 +63,25 @@
     @include button2();
     height:2.5rem;
     width:9rem;
+}
+
+@media(max-width: 576px){
+    .card{
+        flex-direction: column;
+        width:80%;
+    }
+    .child1{
+        width:100%;
+        margin: 20px;
+    }
+    .child2{
+        width:100%;
+    }
+    .comment{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .button2{
+        margin-top: 20px;
+    }
 }
