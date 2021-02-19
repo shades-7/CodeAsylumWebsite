@@ -26,7 +26,7 @@ const online = () => {
         },
         {
             "title" : "DATA SCIENCE WITH MACHINE LEARNING",
-            "content" : "For the people who are interested in extracting insightful information from structured as well as unstructured data and want to switch careers in Machine Learning to become a Data Scientist.",
+            "content" : "For the people who are interested in extracting insightful information from structured as well as unstructured data and want to switch careers in Machine Learning to become a Data Scientist. Covering topics like Python, Statistics, Numpy, Pandas, sklearn, Neural Networks, Machine Learning Algorithms & Libraries. Working on Capsule projects & Kaggle contests.",
             "style" : styles.child2,
             "link" : "https://ace.codeasylums.com/datascience"
         }
