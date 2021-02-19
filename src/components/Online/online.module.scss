@@ -63,7 +63,16 @@
     width:9rem;
     background:$bgcolor;
     color:$primarycolor;
+    &:focus{
+        outline: none;
+    }
+    &:hover{
+        width:10rem;
+        height: 3rem;
+        cursor: pointer;
+    }
 }
+
 
 .child1{
     @extend .child2;
@@ -90,6 +99,11 @@
         @include button2();
         height:2.5rem;
         width:9rem;
+        &:hover{
+            width:10rem;
+            height: 3rem;
+            cursor: pointer;
+        }
     }
 
 }
