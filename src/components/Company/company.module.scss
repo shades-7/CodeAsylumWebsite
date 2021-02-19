@@ -31,7 +31,7 @@
 }
 .footer{
     @include flexcenter(center,center,column);
-    @include Font($secondaryfont,1rem,300,2.2rem,#000000);
+    @include Font($primaryfont,2rem,700,2.2rem,$primarycolor);
     width:80%;
     margin: 10px;
 }
