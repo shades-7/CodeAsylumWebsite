@@ -53,7 +53,7 @@
 
 .comment{
     width:100%;
-    @include flexcenter(space-around,center,row);
+    @include flexcenter(flex-start,center,row);
     @include Font(Noto Sans, 1rem, bold, 1rem, $bgcolor);
     
 }
