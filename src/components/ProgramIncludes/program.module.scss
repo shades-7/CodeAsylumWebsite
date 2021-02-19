@@ -62,7 +62,7 @@
         justify-content: flex-start;
         align-items: flex-start;
         margin-top: 1.2rem;
-        @include Font(Noto Sans, 0.8rem , 300 ,1rem , #000000  )
+        @include Font(Noto Sans, 0.8rem , 300 ,1rem , #000000  );
     }
 }
 

@@ -12,27 +12,27 @@ const program = () =>{
     let programContent = [
         {
             "image" : Pic1,
-            "subheading" : "Real-world projects from",
-            "highlighted" : "industry experts",
-            "content" : "With real world projects and immersive content built in partnership with top tier companies, you’ll master the tech skills companies want."
+            "subheading" : "Real world projects from",
+            "highlighted" : "Industry experts",
+            "content" : "We constantly curate interesting challenges and projects for our bootcamp participants. We refine our curriculum for each batch pushing the limits of your learning outcomes"
         },
         {
             "image" : Pic2,
-            "subheading" : "Real-world projects from",
-            "highlighted" : "industry experts",
-            "content" : "With real world projects and immersive content built in partnership with top tier companies, you’ll master the tech skills companies want."
+            "subheading" : "Mentor Lead ",
+            "highlighted" : "Activity",
+            "content" : "We’ve got a strong team of passionate programmers from leading companies across the globe. Not only will you be closely interacting with this elite group but you also get to work on live projects with them."
         },
         {
             "image" : Pic3,
-            "subheading" : "Real-world projects from",
-            "highlighted" : "industry experts",
-            "content" : "With real world projects and immersive content built in partnership with top tier companies, you’ll master the tech skills companies want."
+            "subheading" : "Hackathons and ",
+            "highlighted" : "Challenges",
+            "content" : "At the end of every month, we organize a challenge week for participants to work in teams in building live projects to boost the GitHub profiles. We constantly push our participants to collaborate with their peers in dedicated hackathons. Solving coding challenges on hackerrank is a norm in our bootcamps. Our mentors periodically review your profiles and guide you on the specific topics you need support on."
         },
         {
             "image" : Pic4,
-            "subheading" : "Real-world projects from",
-            "highlighted" : "industry experts",
-            "content" : "With real world projects and immersive content built in partnership with top tier companies, you’ll master the tech skills companies want."
+            "subheading" : "Placement",
+            "highlighted" : "Care",
+            "content" : "Helping and guiding you with the interview questions via industrial mentors who have been pass through that rigorous technical process. Additionally, we help you to build a balanced profile in listing platforms, an interactive resume and a detailed review of your linkedin and github profiles."
         }
     ]
 
