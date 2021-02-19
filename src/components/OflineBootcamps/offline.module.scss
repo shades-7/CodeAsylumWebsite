@@ -31,6 +31,7 @@
     width:50%;
     @include flexcenter(center,flex-start,column);
     margin:20px;
+    padding: 0px 15px;
 }
 
 .subheader{
