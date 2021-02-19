@@ -14,22 +14,23 @@ const strength = () =>{
         {
             "image" : University,
             "number" : "200+",
-            "containt" : "Colleges Reached"
-        },
-        {
-            "image" : Student,
-            "number" : "200+",
-            "containt" : "Colleges Reached"
+            "containt" : "Connected Campuses"
         },
         {
             "image" : Statistics,
-            "number" : "200+",
-            "containt" : "Colleges Reached"
+            "number" : "700+",
+            "containt" : "Alumni Network"
+        },
+        {
+            "image" : Student,
+            "number" : "100+",
+            "containt" : "Experienced Mentors"
+            
         },
         {
             "image" : Infinity,
-            "number" : "200+",
-            "containt" : "Colleges Reached"
+            "number" : "12,000+",
+            "containt" : "Community Reach"
         }
     ]
 
