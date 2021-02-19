@@ -25,8 +25,8 @@ const App =() =>{
                         Coding Bootcamp for both Beginners and Experts</p>
                     </div>
                     <div className={styles.button}>
-                        <button className={styles.button1}>Online Bootcamp</button>
-                        <button className={styles.button2}>Request Call</button>
+                        <button className={styles.button1}>Request Callback</button>
+                        {/* <button className={styles.button2}>Request Call</button> */}
                     </div>
                 </div>
                 <div className={styles.Child2}>

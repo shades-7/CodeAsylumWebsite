@@ -56,8 +56,11 @@
 
 .comment{
     width:100%;
-    @include flexcenter(space-around,center,row);
+    @include flexcenter(space-around,flex-start,column);
     @include Font(Noto Sans, 1rem, bold, 1rem, $primarycolor);
+    p{
+        margin-bottom: 20px;
+    }
 }
 
 .button2{

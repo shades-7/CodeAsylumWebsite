@@ -23,8 +23,9 @@ const offline = () => {
                         </div>
                         <div className={styles.line}></div>
                         <div className={styles.comment}>
-                            <p>Offline ( 28 Days )</p>
-                            <button className={styles.button2}>Explore Courses</button>
+                            {/* <p>Offline ( 28 Days )</p> */}
+                            <p>DSA + Fullstack Web Development</p>
+                            <button className={styles.button2}>Explore Curriculum</button>
                         </div>
                     </div>
                 </div>
