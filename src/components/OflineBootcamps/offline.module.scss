@@ -66,13 +66,16 @@
 }
 
 @media(max-width: 576px){
+    .Container{
+        padding: 10px;
+    }
     .card{
         flex-direction: column;
         width:80%;
+        padding: 10px;
     }
     .child1{
         width:100%;
-        margin: 20px;
     }
     .child2{
         width:100%;
@@ -84,4 +87,7 @@
     .button2{
         margin-top: 20px;
     }
+    .content{
+        @include Font(Noto Sans, 0.7rem, 400, 0.9rem, $primarycolor);
+     }
 }
