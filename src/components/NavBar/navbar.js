@@ -15,6 +15,8 @@ const navbar = () =>{
                 <Link to={`/`} className={styles.link}>Bootcamp</Link>
                 <Link to={`/`} className={styles.link}>Alumni</Link>
                 <Link to={`/`} className={styles.link}>Mentors</Link>
+                <div className={styles.space}></div>
+                <button className={styles.button2}>Request Callback</button>
                 <img className={styles.logoWhite} src={ LogoWhite } alt="Logo"/>
                 <img className={styles.menu} src={ Menu } alt="Hamburger Menu" />
             </div>

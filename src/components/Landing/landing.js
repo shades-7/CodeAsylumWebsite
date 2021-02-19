@@ -26,7 +26,7 @@ const App =() =>{
                     </div>
                     <div className={styles.button}>
                         <button className={styles.button1}>Online Bootcamp</button>
-                        <button className={styles.button2}>Offline Bootcamp</button>
+                        <button className={styles.button2}>Request Call</button>
                     </div>
                 </div>
                 <div className={styles.Child2}>
