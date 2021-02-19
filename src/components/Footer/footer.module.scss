@@ -21,7 +21,7 @@
     width:100%;
 }
 .icons{
-    margin-top: 10px;
+    margin: 10px 0px 0px 30px;
     @include flexcenter(space-around,center,row);
     width:50%; 
 }
@@ -35,7 +35,14 @@
     @include flexcenter(center,flex-start,column);
     width:100%;
     margin-bottom: 15px;
+    a{
+        text-decoration: none;
+        &:visited{
+            color: #fafafa;
+        }
+    }
 }
+
 
 @media(max-width: 576px){
     .Container{
