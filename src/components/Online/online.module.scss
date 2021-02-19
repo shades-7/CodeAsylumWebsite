@@ -112,17 +112,10 @@
 @media(max-width: 576px){
     .card{
         flex-direction: column;
+        padding:10px;
     }
     .child2{
         width:100%;
         height:auto;
     }
-    .content{
-        @extend .subheader;
-        @include Font(sans-serif,0.7,400,1rem, $bgcolor);
-        margin: 10px 0px;
-        width:100%;
-        height:auto;
-     }
-     
 }
