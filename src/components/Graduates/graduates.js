@@ -5,7 +5,7 @@ import Layout from '../layout';
 import grad1 from '../../images/grad1.png';
 import grad2 from '../../images/grad2.png';
 import grad3 from '../../images/grad3.png';
-import linkdien from '../../images/linkdien.png'
+import linkdien from '../../images/linkd.svg'
 
 const graduates = () =>{
 
