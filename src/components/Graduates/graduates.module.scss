@@ -19,7 +19,6 @@
 .card{
     @include flexcenter(center,flex-start,column);
     width:30%;
-
 }
 .name{
     @include flexcenter(center,flex-start,column);
@@ -57,11 +56,69 @@
 .buttonContainer{
     @include flexcenter(center,center,row);
     width:80%;
+    margin-bottom:3rem;
+}
+.button{
+    @include button2;
+    height:40px;
+    width:20%;
+    font-size: 1rem;
+}
+
+@media(max-width: 576px){
+    .header{
+        font-size: 1.8rem;
+        line-height: 2rem;
+        width:90%;
+    }
+    .cardContainer{
+        @include flexcenter(center,center,column);
+        width:100%;
+        padding:20px;
+    }
+    .card{
+        @include flexcenter(center,center,row);
+        width:90%;
+        background-color: rgb(240, 241, 255);
+        margin-bottom: 20px;
+    }
+    .image{
+        @include flexcenter(center,center,'');
+        width:30%;
+        margin:20px;
+    }
+    .containt,.name{
+        display:none;
+    }
+    .social{
+        @include flexcenter(flex-start,center,row);
+        margin: 20px 0px; 
+        width:100%;
+        .child1{
+            width:15%;
+            @include flexcenter(center,center,'');
+            overflow: hidden;
+        }
+        .child2{
+            @include flexcenter(center,center,column);
+            p{
+                @include Font($primaryfont,0.8rem,bold,1rem, #000000);
+                width:80%;
+                margin-left: 10px;
+            }
+            p:hover{
+                border-bottom: solid 3px #2E368F;
+            }
+        }
+
+    }
     .button{
         @include button2;
         height:40px;
-        width:20%;
-        font-size: 1rem;
+        width:40%;
+        font-size: 0.8rem;
     }
-    margin-bottom:3rem;
+    
+
+
 }
