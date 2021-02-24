@@ -64,17 +64,24 @@
     width:20%;
     font-size: 1rem;
 }
+.cardContainer1{
+    display:none;
+}
 
 @media(max-width: 576px){
+    .cardContainer{
+        display:none;
+    }
+    .cardContainer1{
+        display:block;
+        @include flexcenter(center,center,column);
+        width:100%;
+        padding:20px;
+    }
     .header{
         font-size: 1.8rem;
         line-height: 2rem;
         width:90%;
-    }
-    .cardContainer{
-        @include flexcenter(center,center,column);
-        width:100%;
-        padding:20px;
     }
     .card{
         @include flexcenter(center,center,row);
@@ -82,13 +89,26 @@
         background-color: rgb(240, 241, 255);
         margin-bottom: 20px;
     }
+    .accordinoHeading{
+        @include flexcenter(center,flex-start,column);
+        width:60%;
+        margin-left: 20px;
+
+    }
+    .name{
+        @include flexcenter(center,flex-start,column);
+        @include Font($primaryfont,1rem,bold,1.2rem, $primarycolor);
+    }
     .image{
         @include flexcenter(center,center,'');
         width:30%;
-        margin:20px;
     }
-    .containt,.name{
-        display:none;
+    .accordinoDetail{
+        @include flexcenter(center,center,column);
+        width:100%;
+    }
+    .containt{
+        height:70%;
     }
     .social{
         @include flexcenter(flex-start,center,row);

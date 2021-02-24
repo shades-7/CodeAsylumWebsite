@@ -8,7 +8,8 @@ import Courses from '../../components/Courses/courses';
 import Strength from '../../components/StrengthInNumber/strength';
 import Company from '../../components/Company/company';
 import Footer from '../../components/Footer/footer';
-import Graduates from '../../components/Graduates/graduates'
+import Graduates from '../../components/Graduates/graduates';
+
 
 
 const App =() =>{
