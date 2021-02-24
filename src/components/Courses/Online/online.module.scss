@@ -1,5 +1,5 @@
 
-@import '../necessary.module.scss';
+@import '../../necessary.module.scss';
 
 .Container{
     @include flexcenter(center,center ,column );
@@ -38,8 +38,8 @@
 
 .content{
    @extend .subheader;
-   @include Font(sans-serif, 14px,400,17px, $bgcolor);
-   margin: 15px 0px 10px;
+   @include Font(sans-serif, 14px,400,17px, #dab9ff);
+   margin: 20px 0px 10px;
    width:100%;
    height:42%;
 }
@@ -85,7 +85,7 @@
     }
     
     .content{
-      color: $primarycolor;
+      color: #525151;
     }
     
     .line{

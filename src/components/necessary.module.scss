@@ -19,12 +19,12 @@
 //-------COLORS & FONTS------
 //-------------------------
 $bgcolor: #fafafa;
-$primarycolor: #2E388E;
+$primarycolor: #2E368F;
 $primaryfont: 'Roboto';
 $secondaryfont: 'Noto Sans';
 
 //-------------------------
-//----------BUTTON PRIMARY-
+//----------BUTTON PRIMARY-#2E368F
 //-------------------------
 
 @mixin button2{
@@ -33,7 +33,7 @@ $secondaryfont: 'Noto Sans';
     border:none;
     border-radius: 4px;
     text-decoration: none;
-    background:#2E388E;
+    background:#2E368F;
     color:#fafafa;
     font-family: Noto Sans;
     font-weight: bold;

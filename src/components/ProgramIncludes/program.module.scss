@@ -54,7 +54,7 @@
         @include flexCenter(column);
         justify-content: flex-start;
         align-items: flex-start;
-        @include Font(Noto Sans, 1rem , bold ,1.2rem , #2E388E  )
+        @include Font(Noto Sans, 1rem , bold ,1.2rem , #2E368F  )
     }
     .Content{
         width:100%;
@@ -62,7 +62,7 @@
         justify-content: flex-start;
         align-items: flex-start;
         margin-top: 1.2rem;
-        @include Font(Noto Sans, 0.8rem , 300 ,1rem , #000000  );
+        @include Font(Noto Sans, 0.9rem , 300 ,1.2rem , #242424  );
     }
 }
 
@@ -82,7 +82,7 @@
             overflow: hidden;
         }
         .Subheading{
-            @include Font(Noto Sans, 0.8rem , bold ,1rem , #2E388E  )
+            @include Font(Noto Sans, 0.8rem , bold ,1rem , #2E368F  )
         }
         .Content{
             margin-top: 1rem;

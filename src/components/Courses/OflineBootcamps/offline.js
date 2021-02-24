@@ -1,8 +1,8 @@
 import React from "react"
 import styles from './offline.module.scss'
-import Layout from '../../components/layout'
+import Layout from '../../layout'
 
-import Pic from '../../images/pic.png'
+import Pic from '../../../images/pic.png'
 
 
 const offline = () => {

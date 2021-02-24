@@ -20,9 +20,9 @@ const App =() =>{
                         <p>Learn from the best</p>
                     </div>
                     <div className={styles.containt}>
-                        <p>Become a star developer in under 3 months <br></br> 
-                        Intense Bootcamp delivered by industry veterans <br></br>
-                        Coding Bootcamp for both Beginners and Experts</p>
+                        <p>Become a <span style={{color:"#2E368F"}}>star developer</span> in under 3 months <br></br> 
+                        Intense Bootcamp delivered by <span style={{color:"#2E368F"}}>industry veterans</span> <br></br>
+                        Coding Bootcamp for both <span style={{color:"#2E368F"}}>Beginners and Experts</span></p>
                     </div>
                     <div className={styles.button}>
                         <button className={styles.button1}>Request Callback</button>

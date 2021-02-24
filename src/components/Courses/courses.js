@@ -1,9 +1,9 @@
 import React from "react"
 import styles from "./courses.module.scss"
 import Layout from "../layout"
-import Offline from "../OflineBootcamps/offline"
-import Online from "../Online/online"
-import Placement from "../PlacementAssistance/placement"
+import Offline from "./OflineBootcamps/offline"
+import Online from "./Online/online"
+import Placement from "./PlacementAssistance/placement"
 
 const courses = () => {
     return(

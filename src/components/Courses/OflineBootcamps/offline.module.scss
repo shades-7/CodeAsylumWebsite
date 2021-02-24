@@ -1,4 +1,4 @@
-@import '../necessary.module.scss';
+@import '../../necessary.module.scss';
 
 .Container{
     @include flexcenter(center,center ,column );
@@ -43,7 +43,8 @@
 
 .content{
    @extend .subheader;
-   @include Font(Noto Sans, 0.8rem, 400, 1rem, $primarycolor);
+//    @include Font(Noto Sans, 0.8rem, 400, 1rem, #525151);
+   @include Font(sans-serif, 14px,400,17px, #525151);
    margin: 10px 0px;
 }
 
@@ -60,6 +61,7 @@
     @include Font(Noto Sans, 1rem, bold, 1rem, $primarycolor);
     p{
         margin-bottom: 20px;
+        color:#525151;
     }
 }
 
