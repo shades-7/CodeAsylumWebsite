@@ -9,6 +9,7 @@ import Strength from '../../components/StrengthInNumber/strength';
 import Company from '../../components/Company/company';
 import Footer from '../../components/Footer/footer';
 import Graduates from '../../components/Graduates/graduates';
+import Testimonials from "../../components/Testimonial/testimonials";
 
 
 
@@ -24,6 +25,7 @@ const App =() =>{
          <Strength />
          <Company />
          <Graduates />
+         <Testimonials />
          <Footer />
         </>
     )

@@ -1,1 +1,59 @@
 @import "../necessary.module.scss";
+
+.container{
+    width:100%;
+    @include flexcenter(center,center,column);
+    background-color: #fafafa;
+}
+.heading{
+    width:100%;
+    @include flexcenter(center,center,column);
+    @include Font(Roboto, 3rem , bold ,3.5rem , $primarycolor );
+    position: absolute;
+    top:10px;
+}
+.container2{
+    width:100%;
+    @include flexcenter(center,center,column);
+    overflow: hidden;
+    position: relative;
+}
+.card{
+    width:35%;
+    background-color: #FEFEFE;
+    box-shadow: 0px 4px 20px rgba(181, 181, 181, 0.5);
+    border-radius: 20px;
+    padding:20px;
+    position: absolute;
+    @include flexcenter(center,flex-start,column);
+}
+.Img{
+    width:20%;
+    margin:20px 30px;
+}
+.name{
+    @include flexcenter(center,flex-start,column);
+    width:100%;
+    @include Font(Noto Sans, 1rem , bold ,1.2rem , #000000 );
+    margin-left:30px;
+}
+.content{
+    @include Font(Noto Sans, 0.9rem , 400 ,1.2rem , #424242 );
+    width:90%;
+    margin:10px 30px;
+}
+.controller{
+    @include flexcenter(flex-start,flex-start,row); 
+    width:100%;
+    position: absolute;
+    bottom:7rem;
+    left:4rem;
+}
+.controllerLeft,.controllerRight{
+    width:5%;
+    margin-left:30px;
+    &:hover{
+        width:5.2%;
+        cursor: pointer;
+    }
+}
