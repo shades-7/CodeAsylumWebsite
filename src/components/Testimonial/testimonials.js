@@ -58,7 +58,7 @@ const Team = (props) => {
         <Layout>
             <div className={styles.container}>
                 <div className={styles.container2}>
-                    <img src= { bg } alt="background" width="100%" />
+                    <img className={styles.mob} src= { bg } alt="background" width="100%" />
                     <div className={styles.heading}>
                         <p>Testimonials</p>
                     </div>
@@ -86,28 +86,6 @@ const Team = (props) => {
         </Layout>
     )
 }
-
-{/* <Layout>
-<div className={styles.container}>
-    <div className={styles.container2}>
-        <img src= { bg } alt="background" width="100%" />
-        <div className={styles.heading}>
-            <p>Testimonials</p>
-        </div>
-        <div className={styles.card}>
-            <div className={styles.Img}>
-                <img src= { test1 } alt="background" width="100%" />
-            </div>
-            <div className={styles.name}>
-                <p>Saloni Gupta</p>
-            </div>
-            <div className={styles.content}>
-                <p>It's the best ever bootcamp I have ever attended. The pattern of teaching and the quality mentors and tutors are top notch and it provides a friendly competitive environment of learning.</p>
-            </div>
-        </div>
-    </div>
-</div>
-</Layout> */}
 
 export default Team
 
