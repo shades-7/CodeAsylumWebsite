@@ -22,10 +22,10 @@ const company = () => {
     return(
         <Layout>
             <div className={ styles.Container}>
-                <div className={styles.Content}>   
                     <div className={styles.header}>
                         <p>Our gradutes are <span style={{color:"#2E388E"}}>hired</span> by</p>
-                    </div> 
+                    </div>
+                <div className={styles.Content}>    
                     <div className={styles.logoContainer}>
                         {
                             logo.map((item, index) => {
@@ -37,9 +37,9 @@ const company = () => {
                             })
                         }
                     </div>
-                    {/* <div className={styles.footer}>
-                        <p>Many more...</p>
-                    </div> */}
+                    <div className={styles.footer}>
+                        
+                    </div>
                 </div>
             </div>
         </Layout>   

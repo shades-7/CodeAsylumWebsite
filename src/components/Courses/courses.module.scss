@@ -19,7 +19,7 @@
 @media(max-width: 576px){
     .heading{
         p{
-            @include Font(Roboto,2rem ,bold ,2.2rem ,#000000 );
+            @include Font(Roboto,1.8rem ,bold ,2rem ,#000000 );
         }
     }
 }
