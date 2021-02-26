@@ -92,7 +92,7 @@
         margin:10px 30px;
     }
     .controller{
-        @include flexcenter(flex-start,center,row); 
+        @include flexcenter(center,center,row); 
         width:100%;
         position: static;
         margin-bottom: 20px;
