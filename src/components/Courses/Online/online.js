@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../Online/online.module.scss'
 import Layout from '../../layout'
-import { Link } from "gatsby";
+
 
 const online = () => {
 
