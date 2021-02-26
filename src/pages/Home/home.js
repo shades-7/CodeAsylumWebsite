@@ -11,6 +11,7 @@ import Footer from '../../components/Footer/footer';
 import Graduates from '../../components/Graduates/graduates';
 import Testimonials from "../../components/Testimonial/testimonials";
 import Community from '../../components/Community/community';
+import Hiring from '../../components/Hiring Partner/hiring';
 
 
 
@@ -26,6 +27,7 @@ const App =() =>{
          <Strength />
          <Company />
          <Graduates />
+         <Hiring />
          <Testimonials />
          <Community />
          <Footer />
