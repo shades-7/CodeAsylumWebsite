@@ -42,13 +42,14 @@
         margin: 10px 0px;
     }
     .Container1{
-        @include flexcenter(center,center,column);
+        @include flexcenter(center,center,row);
         width:100%;
+        flex-wrap: wrap;
     }
     .Container2{
         @include flexcenter(center,center,column);
-        width:80%;
-        margin: 30px 0px;
+        width:40%;
+        margin: 30px 12px;
         padding-top:20px;
         background: #FEFEFE;
         box-shadow: 0px 4px 20px rgba(181, 181, 181, 0.5);
@@ -62,7 +63,10 @@
         }
         .containt{
             margin-bottom: 10px;
-            @include Font($secondaryfont,1.3rem,700,1.5,#656565);
+            width:80%;
+            @include Font($secondaryfont,1rem,700,1.3,#656565);
+            @include flexcenter(center,center,column);
+            text-align: center;
         }
     }
     
