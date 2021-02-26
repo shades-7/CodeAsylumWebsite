@@ -21,11 +21,12 @@
 @media(max-width: 576px){
     .heading{
         @include Font(Noto Sans, 1rem, bold, 1.2rem, $primarycolor);
+        top:3.5rem;
     }
     .content{
         @include flexcenter(center,center,column);
         @include Font(Noto Sans, 0.5rem, bold, 0.7rem, #343434);
         position: absolute;
-        bottom: 3.5rem;
+        bottom: 4.5rem;
     }
 }
