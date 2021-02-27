@@ -48,7 +48,7 @@ const hiring = () => {
                                 <img src = { cutshot } alt="logo" width="70%" />
                             </div>
                         </div>
-                        <div className={styles.box}>
+                        <div className={styles.box1}>
                             <div className={styles.name}>
                                 <div className={styles.title}>Food & Accomodation</div>
                                 <div className={styles.company}>Oyo Rooms</div>
