@@ -48,7 +48,7 @@
          border-radius: 10px; 
     }
     .header{
-        @include Font($primaryfont,1.5rem,bold,1.7rem,#000000);
+        @include Font($primaryfont,1.8rem,bold,2rem,#000000);
         width:100%;
     }
     .logoContainer{
