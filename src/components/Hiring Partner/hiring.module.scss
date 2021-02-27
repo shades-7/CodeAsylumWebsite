@@ -100,14 +100,14 @@
     }
     .box{
         width:100%;
-        @include flexcenter(space-between,center,column);
+        @include flexcenter(center,center,column);
         box-shadow: none;
         border-radius: 15px;
         margin-bottom: 10rem;
     }
     .box1{
         width:100%;
-        @include flexcenter(space-between,center,column);
+        @include flexcenter(center,center,column);
         box-shadow:none;
         border-radius: 15px;
         margin-bottom: 1rem;
