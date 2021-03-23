@@ -8,8 +8,8 @@ import Pic from '../../../../images/pic.png'
 const offline = () => {
     return(
         <Layout>
-            <div className={styles.Container}>
-                <div className={styles.Heading}><p>Offline <span style={{ color:"#2E388E"}}>bootcamp</span></p></div>
+            <div className={styles.Container} id='offlineBootcampsContainer'>
+                <div className={styles.Heading}><p>Offline <span style={{ color:"#2E388E"}}>Bootcamps</span></p></div>
                 <div className={styles.card}>
                     <div className={styles.child1}>
                         <img src={ Pic } alt=" Pic " width="100%"/>
