@@ -1,0 +1,62 @@
+@import'../../components/Common/necessary.module.scss';
+
+
+
+.backgroung{
+    @include flexcenter(center,center,column);
+    width:100%;
+    overflow: hidden;
+}
+
+.container2{
+    @include flexcenter(center,center,column);
+    width:100%;
+    padding: 0px;
+    background-color: #fafafa;
+}
+
+.cardContainer{
+    @include flexcenter(space-between,center,row);
+     width:80%;
+     flex-wrap: wrap;
+     margin: 3rem 0rem;
+}
+
+.card{
+    @include flexcenter(center,center,column);
+    width:28%;
+    height: 400px;
+    background-color: #E2E6FA;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    border-radius: 10px;
+    border-bottom: 5px solid #2E388E;
+}
+
+.image{
+    width:85%;
+}
+
+.name{
+    @include flexcenter(center,flex-start,column);
+    @include Font($primaryfont,1.5rem,bold,1.5rem,$primarycolor);
+    width:80%;
+    margin-top: 20px;
+}
+
+.post{
+    @include flexcenter(center,flex-start,column);
+    @include Font($primaryfont,1rem,400,1.2rem,#343434);
+    width:80%;
+    margin-top: 20px;  
+}
+
+.social{
+    @include flexcenter(center,center,column);
+    background-color: #93A0DF;
+    border-radius: 50px;
+    @include Font($primaryfont,1rem,400,1.2rem,$primarycolor);
+    width:50%;
+    margin-top: 20px;  
+    padding:0.5rem; 
+}
