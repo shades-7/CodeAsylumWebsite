@@ -8,7 +8,7 @@ import Placement from "./PlacementAssistance/placement"
 const courses = () => {
     return(
         <Layout>
-            <div className={styles.Container}>
+            <div className={styles.Container} id="courses">
                 <div className={styles.heading}>
                     <p>Discover our <span style = {{color: "#2E3192"}}>bootcamps</span></p>
                 </div>
