@@ -35,7 +35,7 @@ const online = () => {
     return(
         <Layout>
             <div className={styles.Container}>
-                <div className={styles.Heading}><p>Online <span style={{ color:"#2E388E"}}>bootcamp</span></p></div>
+                <div className={styles.Heading}><p>Online <span style={{ color:"#2E388E"}}>Bootcamps</span></p></div>
                 <div className={styles.card}>
 
                     {Courses.map((item, index)=>{
