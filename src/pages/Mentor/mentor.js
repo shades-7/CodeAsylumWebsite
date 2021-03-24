@@ -4,13 +4,56 @@ import styles from './mentor.module.scss'
 import Layout from '../../components/Common/layout'
 import Navbar from '../../components/Common/NavBar/navbar'
 import Footer from '../../components/Common/Footer/footer'
-import { getData } from './mentorContent'
 
 import BG from '../../images/MentorBG.png'
-
+import Rajat from '../../images/rajat.png'
 
 const mentor = () =>{
-    const content = getData();
+
+    const data = {
+        "section": [
+            {
+                "image" : Rajat,
+                "name": "Rajat jain",
+                "post" : "SDE at Microsoft",
+                "social" : "Know More "
+            },
+            {
+                "image" : Rajat,
+                "name": "Rajat jain",
+                "post" : "SDE at Microsoft",
+                "social" : "Know More "
+            },
+            {
+                "image" : Rajat,
+                "name": "Rajat jain",
+                "post" : "SDE at Microsoft",
+                "social" : "Know More "
+            },
+            {
+                "image" : Rajat,
+                "name": "Rajat jain",
+                "post" : "SDE at Microsoft",
+                "social" : "Know More "
+            },
+            {
+                "image" : Rajat,
+                "name": "Rajat jain",
+                "post" : "SDE at Microsoft",
+                "social" : "Know More "
+            },
+            {
+                "image" : Rajat,
+                "name": "Rajat jain",
+                "post" : "SDE at Microsoft",
+                "social" : "Know More "
+            }
+            
+            
+            
+        ]
+    }
+
     return(
        <Layout>
            <div className={styles.container}>
@@ -23,7 +66,7 @@ const mentor = () =>{
                     <div className={styles.cardContainer}>
 
                     {
-                        content.section.map((item,index) => {
+                        data.section.map((item,index) => {
                         return(
                             <div key={index} className={styles.card}>
                                 <div className={styles.image}>

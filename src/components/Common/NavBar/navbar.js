@@ -43,7 +43,10 @@ const Navbar = (props) =>{
             <div className={styles.navbar}>
                 <img className={styles.logo} src={ Logo } alt="Logo"/>
                 
-                <SmoothLink to="courses" smooth={true} duration={1000} className={styles.link}>Bootcamp</SmoothLink>
+                <Link to={`/`} className={styles.link} >
+                Bootcamp
+                    {/* <SmoothLink to="courses" smooth={true}  duration={1000}>Bootcamp</SmoothLink> */}
+                </Link>
                 <Link to={`/`} className={styles.link}>Alumni</Link>
                 <Link to={`/Mentor/mentor`} className={styles.link}>Mentors</Link>
                 <div className={styles.space}></div>
