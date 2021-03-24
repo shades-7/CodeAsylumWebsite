@@ -24,6 +24,9 @@
         display: none;
     } 
 }
+.Mobnavbar{
+    display:none;
+}
 .link{
     display: block;
     margin-left: 7%;
@@ -64,11 +67,20 @@
     .link{
         display: none;
     }
-    .navbar{
+    .Mobnavbar{
+        display: block;
         justify-content: flex-end;
         background-color: #2E368F;
         padding:0px;
         margin: 0px;
+
+        display: flex;
+        position: fixed;
+        z-index:100;
+        flex-direction: row;
+        align-items: center;
+        height:90px;
+        width: 100%; 
 
         .logo {
             display: none;
@@ -91,6 +103,7 @@
         display: none;
     }
     .dropdown{
+        display: block;
         width:100%;
         height:40vh;
         background-color: #fafafa;

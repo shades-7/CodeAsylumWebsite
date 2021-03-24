@@ -22,7 +22,7 @@ const Navbar = (props) =>{
 
     const Content = [
       {
-        "link" : `/Mentor/mentor`,
+        "link" : `/`,
         "image" : icon1,
         "text" : "Bootcamp"
       },
@@ -32,7 +32,7 @@ const Navbar = (props) =>{
         "text" : "Mentor"
       },
       {
-        "link" : `/Mentor/mentor`,
+        "link" : `/`,
         "image" : icon3,
         "text" : "Alumni"
       }
@@ -50,7 +50,7 @@ const Navbar = (props) =>{
                 <button className={styles.button2}>Request Callback</button>  
             </div>
 
-            <div className={styles.navbar}>
+            <div className={styles.Mobnavbar}>
                 <img className={styles.logoWhite} src={ LogoWhite } alt="Logo"/> 
                 
                 <img className={styles.menu} src={ Menu1 } onClick={() => {setOpen(!open)}} alt="Hamburger Menu" />
