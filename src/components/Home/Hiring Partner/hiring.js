@@ -13,7 +13,7 @@ const hiring = () => {
         <Layout>
             <div className={styles.container}>
                 <div className={styles.heading}>
-                <p>Hiring Patners</p>
+                <p>Ecosystem  <span style={{color:"#2E368F"}}>Partners</span></p>
                 </div>
                 <div className={styles.subcontainer}>
                     <div className={styles.child1}>

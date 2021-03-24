@@ -32,7 +32,7 @@ const Navbar = (props) =>{
         "text" : "Mentor"
       },
       {
-        "link" : `/`,
+        "link" : `/Alumni/alumni`,
         "image" : icon1,
         "text" : "Alumni"
       }
@@ -43,7 +43,7 @@ const Navbar = (props) =>{
             <div className={styles.navbar}>
                 <img className={styles.logo} src={ Logo } alt="Logo"/>
                 <Link to="/Home/home#courses" smooth={true} className={styles.link} duration={1000}>Bootcamp</Link>
-                <Link to={`/`} className={styles.link}>Alumni</Link>
+                <Link to={`/Alumni/alumni`} className={styles.link}>Alumni</Link>
                 <Link to={`/Mentor/mentor`} className={styles.link}>Mentors</Link>
                 <div className={styles.space}></div>
                 <button className={styles.button2}>Request Callback</button>  

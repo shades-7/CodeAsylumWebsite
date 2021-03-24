@@ -4,7 +4,7 @@
     @include flexcenter(center,center,column);
     width:100%;
     padding: 10px 20px;
-    background: #f6f6f6;
+    background: rgb(234, 236, 255);
 }
 .header{
     @include flexcenter(center,flex-start,column);

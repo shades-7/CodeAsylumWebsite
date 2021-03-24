@@ -42,7 +42,7 @@ const graduates = () =>{
         <Layout>
             <div className = {styles.container}>
                 <div className={styles.header}>
-                    <p>Meet our coding bootcamp <span style={{color:"#2E368F"}}>grads</span></p>
+                    <p>Meet our star  <span style={{color:"#2E368F"}}>coders</span></p>
                 </div>
                 <div className={styles.cardContainer}>
                     {

@@ -28,8 +28,8 @@ const App =() =>{
          <Company />
          <Graduates />
          <Hiring />
-         <Testimonials />
-         <Community />
+         {/* <Testimonials />
+         <Community /> */}
          <Footer />
         </>
     )

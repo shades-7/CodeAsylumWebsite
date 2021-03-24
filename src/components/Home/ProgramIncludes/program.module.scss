@@ -17,10 +17,10 @@
 .Container{
     width: 100%;
     @include flexCenter(column);
-    background-color: #F4F9FE;
+    background-color:#F4F9FE ;
     padding:20px;
 }
-
+// #F4F9FE
 .Heading{
     width: 100%;
     @include flexCenter(column);

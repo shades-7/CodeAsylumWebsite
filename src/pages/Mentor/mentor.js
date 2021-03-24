@@ -7,6 +7,7 @@ import Footer from '../../components/Common/Footer/footer'
 
 import BG from '../../images/MentorBG.png'
 import Rajat from '../../images/rajat.png'
+import MobBG from '../../images/MentorMobBg.png'
 
 const mentor = () =>{
 
@@ -62,6 +63,10 @@ const mentor = () =>{
                     <img src={ BG } alt="Art Work" width='100%'/>
                 </div>
 
+                <div className={styles.MoBbackground}>
+                    <img src={ MobBG } alt="Art Work" width='100%'/>
+                </div>
+
                 <div className={styles.container2}>
                     <div className={styles.cardContainer}>
 
@@ -73,7 +78,7 @@ const mentor = () =>{
                                     <img src={ item.image } alt="Art Work" width='100%'/>
                                 </div>
                                 <div className={styles.name}>{item.name}</div>
-                                <div className={styles.post}>{item.posts}</div>
+                                <div className={styles.post}>{item.post}</div>
                                 <div className={styles.social}>{item.social}</div>
                             </div>
                         )

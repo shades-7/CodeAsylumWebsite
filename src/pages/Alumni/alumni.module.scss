@@ -1,0 +1,142 @@
+@import '../../components/Common/necessary.module.scss';
+
+
+.container{
+    @include flexcenter(center,center,column);
+    width:100%;
+    background: #fafafa;
+}
+
+.background{
+    @include flexcenter(center,center,column);
+    width:100%;
+    overflow: hidden;
+}
+
+.MoBbackground{
+    display: none;
+}
+
+.cardContainer{
+    @include flexcenter(space-between,center,row);
+    width:80%;
+    padding:20px 0px;
+}
+.card{
+    @include flexcenter(center,flex-start,column);
+    width:30%;
+}
+.name{
+    @include flexcenter(center,flex-start,column);
+    width:100%;
+    margin-top: 10px;
+    @include Font($primaryfont,1.5rem,bold,1.7rem, $primarycolor);
+}
+.containt{
+    @include flexcenter(center,flex-start,column);
+    margin-top: 10px;
+    height:30%;
+    @include Font($primaryfont,0.9rem,400 ,1.2rem , #525151);
+}
+.social{
+    @include flexcenter(flex-start,center,row);
+    margin: 20px 0px; 
+    width:100%;
+    .child1{
+        width:10%;
+        @include flexcenter(center,center,'');
+        overflow: hidden;
+    }
+    .child2{
+        p{
+            @include Font($primaryfont,1rem,bold,1.2rem, #000000);
+            width:100%;
+            margin-left: 20px;
+        }
+        p:hover{
+            border-bottom: solid 3px #2E368F;
+        }
+    }
+}
+
+.cardContainer1{
+    display:none;
+}
+
+@media(max-width: 576px){
+
+    .MoBbackground{
+        display:block;
+        @include flexcenter(center,center,column);
+        width:100%;
+        overflow: hidden;
+    }
+
+    .background{
+        display: none;
+    }
+
+    .cardContainer{
+        display:none;
+    }
+    .cardContainer1{
+        display:block;
+        @include flexcenter(center,center,column);
+        width:100%;
+        padding:20px;
+    }
+    .header{
+        font-size: 1.8rem;
+        line-height: 2rem;
+        width:90%;
+    }
+    .card{
+        @include flexcenter(center,center,row);
+        width:90%;
+        background-color: rgb(240, 241, 255);
+        margin-bottom: 20px;
+    }
+    .accordinoHeading{
+        @include flexcenter(center,flex-start,column);
+        width:60%;
+        margin-left: 20px;
+
+    }
+    .name{
+        @include flexcenter(center,flex-start,column);
+        @include Font($primaryfont,1rem,bold,1.2rem, $primarycolor);
+    }
+    .image{
+        @include flexcenter(center,center,'');
+        width:30%;
+    }
+    .accordinoDetail{
+        @include flexcenter(center,center,column);
+        width:100%;
+    }
+    .containt{
+        height:70%;
+    }
+    .social{
+        @include flexcenter(flex-start,center,row);
+        margin: 20px 0px; 
+        width:100%;
+        .child1{
+            width:15%;
+            @include flexcenter(center,center,'');
+            overflow: hidden;
+        }
+        .child2{
+            @include flexcenter(center,center,column);
+            p{
+                @include Font($primaryfont,0.8rem,bold,1rem, #000000);
+                width:80%;
+                margin-left: 10px;
+            }
+            p:hover{
+                border-bottom: solid 3px #2E368F;
+            }
+        }
+
+    }
+}

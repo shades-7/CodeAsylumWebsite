@@ -2,10 +2,14 @@
 
 
 
-.backgroung{
+.background{
     @include flexcenter(center,center,column);
     width:100%;
     overflow: hidden;
+}
+
+.MoBbackground{
+    display:none;
 }
 
 .container2{
@@ -59,4 +63,52 @@
     width:50%;
     margin-top: 20px;  
     padding:0.5rem; 
+}
+
+@media(max-width: 576px){
+    
+    .MoBbackground{
+        display:block;
+        @include flexcenter(center,center,column);
+        width:100%;
+        overflow: hidden;
+    }
+
+    .background{
+        display: none;
+    }
+    
+    .cardContainer{
+        @include flexcenter(center,center,column);
+         flex-wrap: wrap;
+         margin: 0rem;
+         margin: 3rem 0rem;
+    }
+
+    .card{
+        @include flexcenter(center,center,column);
+        width:90%;
+        height: 320px;
+        margin-right: 0rem;
+       
+    }
+    .image{
+        width:75%;
+    }
+    
+    .name{
+        @include Font($primaryfont,1rem,bold,1.2rem,$primarycolor);
+        width:80%;
+        margin-top: 20px;
+    }
+    
+    .post{
+        margin-top: 10px;  
+    }
+    
+    .social{
+        margin-top: 10px;  
+    }
+    
+    
 }

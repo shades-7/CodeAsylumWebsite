@@ -9,7 +9,7 @@
 .heading{
     @include flexcenter(center,flex-start,column);
     width:80%;
-    @include Font($primaryfont,3rem,bold,3.2rem, $primarycolor);
+    @include Font($primaryfont,3rem,bold,3.2rem, #000000);
     padding:10px;
     margin-bottom: 20px;
 }

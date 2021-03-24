@@ -8,7 +8,7 @@
     .heading{
         width: 80%;
         padding: 20px 0px;
-        @include flexcenter(center,flex-start ,column );
+        @include flexcenter(center,center ,column );
         p{
             @include Font(Roboto,3.5rem ,bold ,4rem ,#000000 );
         }
@@ -17,9 +17,11 @@
 
 
 @media(max-width: 576px){
-    .heading{
-        p{
-            @include Font(Roboto,1.8rem ,bold ,2rem ,#000000 );
+    .Container{
+        .heading{
+            p{
+                display: none;
+            }
         }
     }
 }

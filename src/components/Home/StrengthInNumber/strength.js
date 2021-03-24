@@ -19,12 +19,12 @@ const strength = () =>{
         {
             "image" : Statistics,
             "number" : "700+",
-            "containt" : "Alumni Network"
+            "containt" : "Success Stories"
         },
         {
             "image" : Student,
             "number" : "100+",
-            "containt" : "Experienced Mentors"
+            "containt" : "12 LPA (Avg CTC)"
             
         },
         {
