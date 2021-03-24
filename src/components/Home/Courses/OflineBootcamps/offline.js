@@ -16,16 +16,20 @@ const offline = () => {
                     </div>
                     <div className={styles.child2}>
                         <div className={styles.subheader}>
-                            <p>FULLSTACK WEB DEVELOPMENT FROM SCRATCH</p>
+                            <p>SOFTWARE ENGINEER PROGRAM</p>
                         </div>
                         <div className={styles.content}>
-                            <p>Made for those with a passion for design, development and programming expertise, this course enables the average working professional to learn FullStack from scratch, with Industry-relevant projects and live exposure to both Client & Server-side Technologies like React, JavaScript, NodeJs, AWS and Git</p>
+                            <p>Our flagship offering turning beginners into seasoned developers. Ideal for undergrads and graduates with under 2 years of experience. This program starts with foundations of data structures and algorithms and facilitates live exposure to both client and server side technologies like React, Javascript, Node.js, Express, AWS and Git</p>
                         </div>
                         <div className={styles.line}></div>
                         <div className={styles.comment}>
                             {/* <p>Offline ( 28 Days )</p> */}
                             <p>DSA + Fullstack Web Development</p>
-                            <button className={styles.button2}>Explore Curriculum</button>
+                            <div className={styles.buttonContainer}> 
+                                <button className={styles.button2}>Explore Curriculum</button>
+                                <button className={styles.button1}>Apply Now</button>
+                            </div>
+                            <p style={{color: "red",fontWeight:"400"}}>Applications now open for May 14th Bootcamp</p>
                         </div>
                     </div>
                 </div>

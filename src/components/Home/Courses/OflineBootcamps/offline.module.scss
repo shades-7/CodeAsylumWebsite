@@ -65,10 +65,22 @@
     }
 }
 
+.button1{
+    @include button2();
+    height:2.5rem;
+    width:9rem;
+    margin-right: 20px;
+    background-color: #FEFEFE;
+    border: 4px solid $primarycolor;
+    color: $primarycolor; 
+    margin-bottom: 20px;
+}
 .button2{
     @include button2();
     height:2.5rem;
     width:9rem;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 @media(max-width: 576px){

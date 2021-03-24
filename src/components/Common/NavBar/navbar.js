@@ -22,18 +22,18 @@ const Navbar = (props) =>{
 
     const Content = [
       {
-        "link" : `/`,
-        "image" : icon1,
+        "link" : `/Home/home#courses`,
+        "image" : icon2,
         "text" : "Bootcamp"
       },
       {
         "link" : `/Mentor/mentor`,
-        "image" : icon2,
+        "image" : icon3,
         "text" : "Mentor"
       },
       {
         "link" : `/`,
-        "image" : icon3,
+        "image" : icon1,
         "text" : "Alumni"
       }
     ]
@@ -42,11 +42,7 @@ const Navbar = (props) =>{
         <Layout>
             <div className={styles.navbar}>
                 <img className={styles.logo} src={ Logo } alt="Logo"/>
-                
-                <Link to={`/`} className={styles.link} >
-                Bootcamp
-                    {/* <SmoothLink to="courses" smooth={true}  duration={1000}>Bootcamp</SmoothLink> */}
-                </Link>
+                <Link to="/Home/home#courses" smooth={true} className={styles.link} duration={1000}>Bootcamp</Link>
                 <Link to={`/`} className={styles.link}>Alumni</Link>
                 <Link to={`/Mentor/mentor`} className={styles.link}>Mentors</Link>
                 <div className={styles.space}></div>
@@ -62,7 +58,7 @@ const Navbar = (props) =>{
                   {
                     Content.map((item,index) => {
                       return(
-                        <Link to={ item.link } key={index}> 
+                        <Link to={ item.link } className={styles.link1} key={index}> 
                           <div className={styles.item}>
                               <div className={styles.icon}>
                                 <img className={styles.image} src = { item.image }/>
