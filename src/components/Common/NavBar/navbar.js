@@ -41,7 +41,9 @@ const Navbar = (props) =>{
     return(
         <Layout>
             <div className={styles.navbar}>
-                <img className={styles.logo} src={ Logo } alt="Logo"/>
+                <Link to ={`/`} className={styles.logo}>
+                    <img  src={ Logo } alt="Logo" width="75%"/>
+                </Link>    
                 <Link to="/Home/home#courses" smooth={true} className={styles.link} duration={1000}>Bootcamp</Link>
                 <Link to={`/Alumni/alumni`} className={styles.link}>Alumni</Link>
                 <Link to={`/Mentor/mentor`} className={styles.link}>Mentors</Link>
