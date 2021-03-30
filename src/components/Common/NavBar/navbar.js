@@ -53,7 +53,7 @@ const Navbar = (props) =>{
 
             <div className={styles.Mobnavbar}>
                 <Link to ={`/`} className={styles.logoWhite}>
-                    <img src={ LogoWhite } alt="Logo" width="90%"/> 
+                    <img src={ LogoWhite } alt="Logo" width="70%"/> 
                 </Link>    
                 <img className={styles.menu} src={ Menu1 } onClick={() => {setOpen(!open)}} alt="Hamburger Menu" />
 
