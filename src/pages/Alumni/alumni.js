@@ -50,6 +50,12 @@ const Alumni = () => {
                 <Navbar/>
                 <div className={styles.background}>
                     <img src={ BG } alt="Art Work" width='100%'/>
+                    <div className={styles.heading}>
+                    Meet Our Mentor Family
+                    <p className={styles.subHeading}>
+                    Our community has made it possible to onboard some amazing mentors for you. Professionals from MNCs like Microsoft, Amazon, DE Shaw, etc. & some amazing startups who are working as Software Developers, Data Scientist and Platform Engineers.
+                    </p>
+                    </div>
                 </div>
                 <div className={styles.container}>
                     <div className={styles.cardContainer}>
@@ -83,8 +89,14 @@ const Alumni = () => {
 
 
 {/* MobVersion */}
-                    <div className={styles.MoBbackground}>
+                    <div className={styles.MoBbackground}>                        
                         <img src={ MobBG } alt="Art Work" width='100%'/>
+                        <div className={styles.heading}>
+                            Meet Our Alumni 
+                            <p className={styles.subHeading}>
+                                The Alumni ecosystem is the most amazing part of codeasylums culture, where like-minded tech enthusiasts live, learn, collaborate with the community, mentors, and the surroundings. There is a great chance to make some good friends and professional network who stay for the entirety. 
+                            </p>
+                        </div>
                     </div>
 
                     <div className={styles.cardContainer1}>

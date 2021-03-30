@@ -16,7 +16,19 @@
 .MoBbackground{
     display: none;
 }
-
+.heading{
+    @include flexcenter(center,flex-start,column);
+    width:80%;
+    position: absolute;
+    padding:7rem 0rem 2rem 3rem;
+    @include Font($primaryfont,4rem,600,4.2rem,#ffffff);
+}
+.subHeading{
+    @include flexcenter(center,flex-start,column);
+    width:70%;
+    padding-top:3rem;
+    @include Font($primaryfont,1.4rem,500,1.7rem,#CFC9FC);
+}
 .cardContainer{
     @include flexcenter(space-between,center,row);
     width:80%;
@@ -71,7 +83,17 @@
         width:100%;
         overflow: hidden;
     }
-
+    .heading{
+        width:100%;
+        position: absolute;
+        padding:7rem 1rem 2rem 1rem;
+        @include Font($primaryfont,3rem,600,3.2rem,#ffffff);
+    }
+    .subHeading{
+        width:80%;
+        padding-top:3rem;
+        @include Font($primaryfont,1.4rem,500,1.7rem,#CFC9FC);
+    }
     .background{
         display: none;
     }
