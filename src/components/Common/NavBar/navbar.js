@@ -52,11 +52,14 @@ const Navbar = (props) =>{
             </div>
 
             <div className={styles.Mobnavbar}>
-                <img className={styles.logoWhite} src={ LogoWhite } alt="Logo"/> 
-                
+                <Link to ={`/`} className={styles.logoWhite}>
+                    <img src={ LogoWhite } alt="Logo" width="90%"/> 
+                </Link>    
                 <img className={styles.menu} src={ Menu1 } onClick={() => {setOpen(!open)}} alt="Hamburger Menu" />
 
-                {open && <div className={styles.dropdown}>
+                {open && <>
+                <div className={styles.backdrop} onClick={() => {setOpen(!open)}}></div>
+                <div className={styles.dropdown}>  
                   {
                     Content.map((item,index) => {
                       return(
@@ -71,7 +74,7 @@ const Navbar = (props) =>{
                       )
                     })
                   }   
-                </div>}
+                </div> </>}
             </div>
                 
         </Layout>
