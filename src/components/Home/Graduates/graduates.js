@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './graduates.module.scss';
 import Layout from '../../Common/layout';
+import {Link} from 'gatsby'
 
 import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
@@ -11,6 +12,7 @@ import grad1 from '../../../images/grad1.png';
 import grad2 from '../../../images/grad2.png';
 import grad3 from '../../../images/grad3.png';
 import linkdien from '../../../images/linkd.svg'
+
 
 const graduates = () =>{
 
@@ -120,9 +122,10 @@ const graduates = () =>{
                     }
 
                 </div>
-                <div className={styles.buttonContainer}>
-                    <button className={styles.button}> Success Stories</button>
-                </div>
+                <Link to={'/Alumni/alumni'} className={styles.buttonContainer}>
+                   
+                        <button className={styles.button}> Success Stories</button>
+                </Link>
             </div>
         </Layout>
     )

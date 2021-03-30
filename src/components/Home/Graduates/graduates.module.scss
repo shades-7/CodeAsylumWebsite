@@ -57,6 +57,7 @@
     @include flexcenter(center,center,row);
     width:80%;
     margin-bottom:3rem;
+    text-decoration: none;
 }
 .button{
     @include button2;
