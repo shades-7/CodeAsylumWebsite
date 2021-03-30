@@ -24,27 +24,27 @@ const Navbar = (props) =>{
       {
         "link" : `/Home/home#courses`,
         "image" : icon2,
-        "text" : "Bootcamp"
+        "text" : "Bootcamps"
       },
       {
         "link" : `/Mentor/mentor`,
         "image" : icon3,
-        "text" : "Mentor"
+        "text" : "Mentors"
       },
       {
         "link" : `/Alumni/alumni`,
         "image" : icon1,
         "text" : "Alumni"
       }
-    ]
-
-    return(
+    ]      
+    
+      return(
         <Layout>
             <div className={styles.navbar}>
                 <Link to ={`/`} className={styles.logo}>
                     <img  src={ Logo } alt="Logo" width="75%"/>
                 </Link>    
-                <Link to="/Home/home#courses" smooth={true} className={styles.link} duration={1000}>Bootcamp</Link>
+                <Link to="/Home/home#courses" smooth={true} className={styles.link} duration={1000}>Bootcamps</Link>
                 <Link to={`/Alumni/alumni`} className={styles.link}>Alumni</Link>
                 <Link to={`/Mentor/mentor`} className={styles.link}>Mentors</Link>
                 <div className={styles.space}></div>
@@ -75,10 +75,11 @@ const Navbar = (props) =>{
                     })
                   }   
                 </div> </>}
-            </div>
-                
+            </div>    
         </Layout>
-    )
+      )
+        
+    
 }
 
 export default Navbar;
