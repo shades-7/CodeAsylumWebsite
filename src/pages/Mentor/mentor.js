@@ -155,10 +155,22 @@ const mentor = () =>{
                 <Navbar/>
                 <div className={styles.background}>
                     <img src={ BG } alt="Art Work" width='100%'/>
+                    <div className={styles.heading}>
+                    Meet Our Mentor Family
+                    <p className={styles.subHeading}>
+                    Our community has made it possible to onboard some amazing mentors for you. Professionals from MNCs like Microsoft, Amazon, DE Shaw, etc. & some amazing startups who are working as Software Developers, Data Scientist and Platform Engineers.
+                    </p>
+                    </div>
                 </div>
 
                 <div className={styles.MoBbackground}>
                     <img src={ MobBG } alt="Art Work" width='100%'/>
+                    <div className={styles.heading}>
+                    Meet Our Mentor Family
+                    <p className={styles.subHeading}>
+                    Our community has made it possible to onboard some amazing mentors for you. Professionals from MNCs like Microsoft, Amazon, DE Shaw, etc. & some amazing startups who are working as Software Developers, Data Scientist and Platform Engineers.
+                    </p>
+                    </div>
                 </div>
 
                 <div className={styles.container2}>
