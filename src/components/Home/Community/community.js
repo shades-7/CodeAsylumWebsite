@@ -3,6 +3,7 @@ import styles from './community.module.scss';
 import Layout from '../../Common/layout';
 
 import pic from '../../../images/community.png';
+import Mob from '../../../images/communityMob.png'
 
 const community = () => {
     return(
@@ -16,6 +17,15 @@ const community = () => {
                 <div className={styles.content}>
                     <p>strong community to growth with</p> 
                 </div>
+            </div>
+
+            <div className={styles.Mob}>
+                 <img src={ Mob } alt="background" width="70%" />
+                 <div className={styles.heading}>
+                    <p>25K+ Students </p>
+                    <p>are in One Place</p>
+                    <p className={styles.content1}>strong community to growth with</p> 
+                </div>       
             </div>
         </Layout>
     )

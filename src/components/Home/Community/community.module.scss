@@ -17,18 +17,27 @@
     position: absolute;
     bottom: 12rem;
 }
+.Mob{
+    display: none;
+}
 
 @media(max-width: 576px){
     .container{
-        @include flexcenter(flex-start,center,column);
+       display: none;
+    }
+    .Mob{
+        display: block;
+        @include flexcenter(center,center,column);
+        overflow: hidden;
+        background: #F1F2F4;
+        width:100%;
+        height:60vh;
+        position: relative;
     }
     .heading{
-        @include Font(Noto Sans, 1rem, bold, 1.2rem, $primarycolor);
-        top: 2.5rem;
+        @include Font(Noto Sans, 1.5rem, bold, 1.7rem, $primarycolor);
     }
-    .content{
-        @include flexcenter(center,center,column);
-        @include Font(Noto Sans, 0.5rem, bold, 0.7rem, #343434);
-        bottom: 4rem;
+    .content1{
+        @include Font(Noto Sans, 1rem, bold, 1.2rem, #343434);
     }
 }

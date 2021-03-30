@@ -21,6 +21,9 @@
     margin-top: 2rem;
     padding: 10px 20px;
 }
+.mob{
+    display: none;
+}
 .child1{
     width:35%;
     @include flexcenter(center,center,'');
@@ -93,6 +96,12 @@
         width:90%;
         padding: 10px;
         border-radius: 12px;
+    }
+    .mob{
+        display:block;
+    }
+    .des{
+        display: none;
     }
     .child1{
         width:100%;

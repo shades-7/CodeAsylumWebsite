@@ -3,6 +3,7 @@ import styles from './offline.module.scss'
 import Layout from '../../../Common/layout'
 
 import Pic from '../../../../images/pic.png'
+import PicM from '../../../../images/picM.png'
 
 
 const offline = () => {
@@ -12,7 +13,8 @@ const offline = () => {
                 <div className={styles.Heading}><p>Offline <span style={{ color:"#2E388E"}}>bootcamp</span></p></div>
                 <div className={styles.card}>
                     <div className={styles.child1}>
-                        <img src={ Pic } alt=" Pic " width="100%"/>
+                        <img className={styles.des} src={ Pic } alt=" Pic " width="100%"/>
+                        <img className={styles.mob} src={ PicM } alt=" Pic " width="100%"/>
                     </div>
                     <div className={styles.child2}>
                         <div className={styles.subheader}>
