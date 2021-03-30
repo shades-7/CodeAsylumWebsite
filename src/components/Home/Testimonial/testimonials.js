@@ -3,16 +3,20 @@ import styles from './testimonials.module.scss';
 import Layout from '../../Common/layout';
 
 import bg from '../../../images/bg.png'
-import test1 from '../../../images/test1.png'
+import AyushiKejriwal from '../../../images/ayushi kejriwal.png'
+import TanuBhalot from '../../../images/tanu bhalot.png'
+import MohakJain from '../../../images/mohak jain.png'
+import RaunakAgarwal from '../../../images/raunak agarwal.png'
 import controllerLeft from '../../../images/controllerLeft.png'
 import controllerRight from '../../../images/controllerRight.png'
 
 const Team = (props) => {
 
     const [member,setMember]=useState([
-        {pic:test1,name:"Saloni Gupta",content:"It's the best ever bootcamp I have ever attended. The pattern of teaching and the quality mentors and tutors are top notch and it provides a friendly competitive environment of learning."},
-        {pic:test1,name:"S Gupta",content:"It's the best ever bootcamp I have ever attended. The pattern of teaching and the quality mentors and tutors are top notch and it provides a friendly competitive environment of learning."},
-        {pic:test1,name:"Shalu Gupta",content:"It's the best ever bootcamp I have ever attended. The pattern of teaching and the quality mentors and tutors are top notch and it provides a friendly competitive environment of learning."}
+        {pic:AyushiKejriwal,name:"Ayushi Kejriwal - Software Engineer at Microsoft",content:"The experience is totally worth it, and I would definitely recommend it to my juniors, just go there, and experience it."},
+        {pic:TanuBhalot,name:"Tannu Bhalotia - Software Engineer at Intuit",content:"It provides you a great learning experience with a very friendly environment. All the teachers guides and motivates you throughout the bootcamp and hence this helps you in learning new technologies and building confidence."},
+        {pic:MohakJain,name:"Mohak Jain - Placed at Salesforce",content:"The environment provided by Codeasylums is excellent. Great for college students who are looking to learn new things and utilise their vacations productively. The mentors provide 24*7 guidance. Hackathons are a fun way of implementing. "},
+        {pic:RaunakAgarwal,name:"Raunak Agarwal - Analyst (strats) at Goldman Sachs",content:"CodeAsylums has been the most incredible experience of my life. I am really glad that I could be a part of the first ever batch. I met new people, brilliant minds and we all are still connected."} 
       ])
 
       const [currentIndex,setCurrentIndex]=useState(0)
