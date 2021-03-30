@@ -25,7 +25,7 @@ const Team = (props) => {
       useEffect(()=>{
           setInterval(()=>{  
             setCounter(prev=>prev+1)    
-          },1000)
+          },2000)
       },[])
   
       useEffect(()=>{

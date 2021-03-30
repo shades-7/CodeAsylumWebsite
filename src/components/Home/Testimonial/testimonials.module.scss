@@ -73,23 +73,23 @@
     .card{
         width:80%;
         position: static;
-        padding:20px;
+        padding:2rem;
         margin: 2rem 0rem;
     }
     .Img{
         width:20%;
-        margin:20px 30px;
+        margin:10px 15px;
     }
     .name{
         @include flexcenter(center,flex-start,column);
-        width:100%;
+        width:90%;
         @include Font(Noto Sans, 1rem , bold ,1.2rem , #000000 );
-        margin-left:30px;
+        margin-left:15px;
     }
     .content{
         @include Font(Noto Sans, 0.6rem , 400 ,0.8rem , #424242 );
-        width:90%;
-        margin:10px 30px;
+        width:100%;
+        margin:10px 15px;
     }
     .controller{
         @include flexcenter(center,center,row); 

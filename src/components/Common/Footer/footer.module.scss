@@ -15,7 +15,7 @@
     width:30%;
 }
 .text{
-    @include Font($secondaryfont,1rem,700,1.2rem,$bgcolor);
+    @include Font($secondaryfont,1rem,700,1.2rem,#B2ACDB);
     @include flexcenter(center,center,column);
     margin-bottom: 20px;
     width:100%;
@@ -31,13 +31,13 @@
     margin-top: 40px;
 }
 .course{
-    @include Font($secondaryfont,1rem,400,1.2rem,$bgcolor);
+    @include Font($secondaryfont,1rem,400,1.2rem,#B2ACDB);
     @include flexcenter(center,flex-start,column);
     width:100%;
     margin-bottom: 15px;
     a{
         text-decoration: none;
-        color:#fafafa;
+        color:#B2ACDB;
     }
 }
 

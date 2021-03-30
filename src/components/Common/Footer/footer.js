@@ -6,6 +6,7 @@ import Logo from '../../../images/LogoWhite.png';
 import Facebook from '../../../images/facebook.png';
 import Instagram from '../../../images/Instagram.png';
 import Medium from '../../../images/Medium.png';
+import Twitter from '../../../images/twitter.png';
 
 const Footer = () => {
     return(
@@ -27,6 +28,9 @@ const Footer = () => {
                             </a>
                             <a href="https://medium.com/progate/kickstarting-careers-during-summer-holidays-with-a-4-week-programming-bootcamp-f807da834d83">
                                 <img src={ Medium } alt="medium logo" width="55%"/>
+                            </a>
+                            <a href="https://twitter.com/CodeAsylums?s=08">
+                                <img src={ Twitter } alt="medium logo" width="55%"/>
                             </a>
                         </div>
                 </div>
