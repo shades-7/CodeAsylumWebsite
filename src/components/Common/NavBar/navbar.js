@@ -45,10 +45,10 @@ const Navbar = (props) =>{
                     <img  src={ Logo } alt="Logo" width="75%"/>
                 </Link>    
                 <Link to="/Home/home#courses" smooth={true} className={styles.link} duration={1000}>Bootcamps</Link>
-                <Link to={`/Alumni/alumni`} className={styles.link}>Alumni</Link>
+                {/* <Link to={`/Alumni/alumni`} className={styles.link}>Alumni</Link> */}
                 <Link to={`/Mentor/mentor`} className={styles.link}>Mentors</Link>
                 <div className={styles.space}></div>
-                <button className={styles.button2}>Request Callback</button>  
+                <a href='https://forms.gle/kxc5gi7mqYwnYUEj9' target='_blank' className={styles.button2}>Request Callback</a>  
             </div>
 
             <div className={styles.Mobnavbar}>

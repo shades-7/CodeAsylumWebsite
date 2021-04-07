@@ -38,110 +38,110 @@ const mentor = () =>{
             {
                 "image" :Aayush,
                 "name": "Aayush Kumar",
-                "post" : "Work at Amazon",
-                "social" : "Know More "
+                "post" : "Works at Amazon",
+                // "social" : "Know More "
             },
             {
                 "image" : Aditya,
                 "name": "Aditya Ghosh",
-                "post" : "Work at Google",
-                "social" : "Know More "
+                "post" : "Works at Google",
+                // "social" : "Know More "
             },
             {
                 "image" : Amar,
                 "name": "Amar Pathak",
-                "post" : "Work at SpringBoard",
-                "social" : "Know More "
+                "post" : "Works at SpringBoard",
+                // "social" : "Know More "
             },
             {
                 "image" : Anubhav,
                 "name": "Anubhav",
-                "post" : "Work at Reliance Jio",
-                "social" : "Know More "
+                "post" : "Works at Reliance Jio",
+                // "social" : "Know More "
             },
             {
                 "image" : Arushit,
                 "name": "Arushit Mudgal",
-                "post" : "Work at Akamai",
-                "social" : "Know More "
+                "post" : "Works at Akamai",
+                // "social" : "Know More "
             },
             {
                 "image" : Iti,
                 "name": "Iti Agarwal",
-                "post" : "Work at Inmobi",
-                "social" : "Know More "
+                "post" : "Works at Inmobi",
+                // "social" : "Know More "
             },
             {
                 "image" : Kajal,
                 "name": "Kajal Singh",
-                "post" : "Work at Amazon",
-                "social" : "Know More "
+                "post" : "Works at Amazon",
+                // "social" : "Know More "
             },
             {
                 "image" : Mayank,
                 "name": "Mayank Sharma",
-                "post" : "Work at Hotstar",
-                "social" : "Know More "
+                "post" : "Works at Hotstar",
+                // "social" : "Know More "
             },
             {
                 "image" : Nabh,
                 "name": "Nabh Chaudhary",
-                "post" : "Work at Goldman Sachs",
-                "social" : "Know More "
+                "post" : "Works at Goldman Sachs",
+                // "social" : "Know More "
             },
             {
                 "image" : Priyanka,
                 "name": "Priyanka Kekane",
-                "post" : "Work at ayopop",
-                "social" : "Know More "
+                "post" : "Works at ayopop",
+                // "social" : "Know More "
             }
             ,{
                 "image" : Rahul,
                 "name": "Rahul Kumar",
-                "post" : "Work at pacteraEdge",
-                "social" : "Know More "
+                "post" : "Works at pacteraEdge",
+                // "social" : "Know More "
             },
             {
                 "image" : Rajat,
                 "name": "Rajat jain",
-                "post" : "Work at Microsoft",
-                "social" : "Know More "
+                "post" : "Works at Microsoft",
+                // "social" : "Know More "
             },
             {
                 "image" : Satyarth,
                 "name": "Satyarth Oja",
-                "post" : "Work at Grab",
-                "social" : "Know More "
+                "post" : "Works at Grab",
+                // "social" : "Know More "
             },
             {
                 "image" : Saurav,
                 "name": "Saurav Chakroborty",
-                "post" : "Work at Flipkart",
-                "social" : "Know More "
+                "post" : "Works at Flipkart",
+                // "social" : "Know More "
             },
             {
                 "image" : Shruti,
                 "name": "shruti jalan",
-                "post" : "Work at Amazon",
-                "social" : "Know More "
+                "post" : "Works at Amazon",
+                // "social" : "Know More "
             },
             {
                 "image" : Reshab,
                 "name": "Reshab Gupta",
-                "post" : "Work at Amazon",
-                "social" : "Know More "
+                "post" : "Works at Amazon",
+                // "social" : "Know More "
             },
             {
                 "image" : RajatG,
                 "name": "Rajat Goyal",
-                "post" : "Work at GoJek",
-                "social" : "Know More "
+                "post" : "Works at GoJek",
+                // "social" : "Know More "
             },
             {
                 "image" : Madhav,
                 "name": "C S Madhav",
-                "post" : "Work at Amazon",
-                "social" : "Know More "
+                "post" : "Works at Amazon",
+                // "social" : "Know More "
             }
             
             
@@ -185,7 +185,7 @@ const mentor = () =>{
                                 </div>
                                 <div className={styles.name}>{item.name}</div>
                                 <div className={styles.post}>{item.post}</div>
-                                <div className={styles.social}>{item.social}</div>
+                                {/* <div className={styles.social}>{item.social}</div> */}
                             </div>
                         )
                         })

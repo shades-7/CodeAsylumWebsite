@@ -23,7 +23,7 @@ const company = () => {
         <Layout>
             <div className={ styles.Container}>
                     <div className={styles.header}>
-                        <p>Our gradutes are <span style={{color:"#2E388E"}}>hired</span> by</p>
+                        <p>Our graduates are <span style={{color:"#2E388E"}}>hired</span> by</p>
                     </div>
                 <div className={styles.Content}>    
                     <div className={styles.logoContainer}>
