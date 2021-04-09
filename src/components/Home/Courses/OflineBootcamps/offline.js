@@ -28,7 +28,7 @@ const offline = () => {
                             {/* <p>Offline ( 28 Days )</p> */}
                             <p>DSA + Fullstack Web Development</p>
                             <div className={styles.buttonContainer}> 
-                                <button className={styles.button2}>Explore Curriculum</button>
+                                <a className={styles.button2} href='https://bootcamp.codeasylums.com/combocourses/fullstack-dsa.html'>Explore Curriculum</a>
                                 <a href='https://forms.gle/kxc5gi7mqYwnYUEj9' target='_blank' className={styles.button1}>Apply Now</a>
                             </div>
                             <p style={{color: "red",fontWeight:"400"}}>Applications now open for May 14th Bootcamp</p>
