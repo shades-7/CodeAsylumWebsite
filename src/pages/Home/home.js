@@ -28,7 +28,7 @@ const App =() =>{
          <Courses />
          <Strength />
          <Company />
-         <Graduates />
+         {/* <Graduates /> */}
          <Hiring />
          <Testimonials />
          <Community />

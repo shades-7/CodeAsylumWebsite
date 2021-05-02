@@ -67,23 +67,37 @@
         color:#525151;
     }
 }
-
+.buttonContainer{
+    display: flex;
+}
 .button1{
     @include button2();
     height:2.5rem;
-    width:9rem;
-    margin-right: 20px;
+    width: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #FEFEFE;
     border: 4px solid $primarycolor;
     color: $primarycolor; 
-    margin-bottom: 20px;
+    transition: all 0.2s;
+    &:hover{
+        background: whitesmoke;
+        cursor: pointer;
+    }
+
 }
 .button2{
     @include button2();
     height:2.5rem;
     width:9rem;
     margin-right: 20px;
+    transition: all 0.2s;
     margin-bottom: 20px;
+    &:hover{
+        background: $primarycolorhover;
+        cursor: pointer;
+    }
 }
 
 @media(max-width: 576px){

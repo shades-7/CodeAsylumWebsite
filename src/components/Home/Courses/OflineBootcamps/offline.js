@@ -29,7 +29,7 @@ const offline = () => {
                             <p>DSA + Fullstack Web Development</p>
                             <div className={styles.buttonContainer}> 
                                 <button className={styles.button2}>Explore Curriculum</button>
-                                <button className={styles.button1}>Apply Now</button>
+                                <a href='https://forms.gle/kxc5gi7mqYwnYUEj9' target='_blank' className={styles.button1}>Apply Now</a>
                             </div>
                             <p style={{color: "red",fontWeight:"400"}}>Applications now open for May 14th Bootcamp</p>
                         </div>

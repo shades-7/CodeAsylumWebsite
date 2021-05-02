@@ -23,8 +23,8 @@ const strength = () =>{
         },
         {
             "image" : Student,
-            "number" : "100+",
-            "containt" : "12 LPA (Avg CTC)"
+            "number" : "12 LPA",
+            "containt" : "Average CTC"
             
         },
         {

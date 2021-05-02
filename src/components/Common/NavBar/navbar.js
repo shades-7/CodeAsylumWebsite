@@ -46,13 +46,12 @@ const Navbar = (props) =>{
                 <Link to ={`/`} className={styles.logo}>
                     <img  src={ Logo } alt="Logo" width="75%"/>
                 </Link>    
-                <Link to={"/Home/home#courses"} className={styles.link}>Bootcamps</Link>
-                <Link to={`/Alumni/alumni`} className={styles.link}>Alumni</Link>
+
+                <Link to="/Home/home#courses" smooth={true} className={styles.link} duration={1000}>Bootcamps</Link>
+                {/* <Link to={`/Alumni/alumni`} className={styles.link}>Alumni</Link> */}
                 <Link to={`/Mentor/mentor`} className={styles.link}>Mentors</Link>
                 <div className={styles.space}></div>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdL92Nf3YDdAQnrFIbky-Ku1i0HizIu_Q0dN4IzfrHjrxCxSg/viewform" target="blank" className={styles.buttonDiv}> 
-                    <button className={styles.button2}>Request Callback</button> 
-                </a>
+                <a href='https://forms.gle/kxc5gi7mqYwnYUEj9' target='_blank' className={styles.button2}>Request Callback</a>  
             </div>
 
             <div className={styles.Mobnavbar}>

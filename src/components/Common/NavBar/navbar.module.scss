@@ -50,7 +50,7 @@
 }
 .button2{
     height:60%;
-    width:150px;
+    width:180px;
     border:none;
     border-radius: 4px;
     text-decoration: none;
@@ -58,12 +58,15 @@
     color:#fafafa;
     font-family: Noto Sans;
     font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s;
     &:focus{
         outline: none;
     }
     &:hover{
-        width:10rem;
-        height: 3rem;
+        background:$primarycolorhover;
         cursor: pointer;
     }
 }
