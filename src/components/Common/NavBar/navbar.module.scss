@@ -43,6 +43,11 @@
 .space{
     width:30%;
 }
+.buttonDiv{
+    height:100%;
+    @include flexcenter(center,center,row);
+    text-decoration: none; 
+}
 .button2{
     height:60%;
     width:150px;

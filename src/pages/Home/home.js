@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import styles from './home.module.scss';
 
 import NavBar from '../../components/Common/NavBar/navbar';
@@ -16,6 +16,8 @@ import Hiring from '../../components/Home/Hiring Partner/hiring';
 
 
 const App =() =>{
+
+
     return(
         <>
          <div className={styles.landing}>

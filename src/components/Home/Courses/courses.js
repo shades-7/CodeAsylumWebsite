@@ -5,7 +5,7 @@ import Offline from "./OflineBootcamps/offline"
 import Online from "./Online/online"
 // import Placement from "./PlacementAssistance/placement"
 
-const courses = () => {
+const courses = (props) => {
     return(
         <Layout>
             <div className={styles.Container} id="courses">
