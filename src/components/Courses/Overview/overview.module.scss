@@ -1,0 +1,49 @@
+@import'../../Common/necessary.module.scss';
+
+.Container{
+    @include flexcenter(center,center,column);
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.Heading{
+    @include flexcenter(center,center,column);
+    @include Font($primaryfont,3.5rem,600,4.2rem,$primarycolor);
+}
+
+.Container2{
+    width:80%;
+    background-color: $primarycolor;
+    height: 20vh;
+    border-radius: 100px;
+    margin: 2rem 0rem;
+    @include flexcenter(center,space-around,row);
+}
+
+.subContainer{
+    @include flexcenter(center,center,column);
+    width:20%;
+}
+
+.image{
+    @include flexcenter(center,center,column);
+}
+
+.text{
+    @include flexcenter(center,center,column);
+    @include Font($secondaryfont,1rem,400,1.4rem,#ffffff);
+    margin-top: 10px;
+}
+
+.Container3{
+    @include flexcenter(center,center,column);
+    width:80%;
+    background-color: #fafafa;
+    margin: 2rem 0 3rem 0;
+}
+
+.text1{
+    @include flexcenter(center,center,column);
+    @include Font($secondaryfont,1.3rem,400,1.7rem,#484848); 
+    text-align: center;
+}
