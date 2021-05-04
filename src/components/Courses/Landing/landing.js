@@ -7,9 +7,9 @@ const App =() =>{
     return(
         <>
             <div className={styles.Container1}>
-                <div className={styles.Mob}>
+                {/* <div className={styles.Mob}>
                     <img src={ Pic } alt="Art Work" width='100%'/>
-                </div>
+                </div> */}
 
 
                 <div className={styles.Child1}>
