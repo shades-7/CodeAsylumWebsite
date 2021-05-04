@@ -47,3 +47,24 @@
     @include Font($secondaryfont,1.3rem,400,1.7rem,#484848); 
     text-align: center;
 }
+
+@media(max-width: 576px){
+    .Container2{
+        width:90%;
+        height: 15vh;
+        padding: 4rem 0rem;
+    }
+
+    .subContainer{
+        width:20%;
+    }
+    
+    .image{
+        width:70%;
+    }
+    
+    .text{
+        width:70%;
+        @include Font($secondaryfont,0.5rem,400,0.8rem,#ffffff);
+    }
+}

@@ -1,0 +1,62 @@
+@import'../../Common/necessary.module.scss';
+
+.Container{
+    @include flexcenter(center,center,column);
+    width:100%;
+    background-color: #fafafa;
+    margin-bottom: 1rem;
+}
+
+.Heading{
+    @include flexcenter(center,center,column);
+    width:80%;
+    @include Font($primaryfont,3.5rem,600,4.2rem,#000000);
+}
+
+.Container2{
+    @include flexcenter(space-around,center,row);
+    width:80%;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.Card{
+    @include flexcenter(center,center,column);
+    width:38%;
+    margin-top: 3rem;
+    background-color: #DFDDF3;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.Title{
+    @include flexcenter(flex-start,center,row);
+    width:100%;
+    margin-bottom: 1.3rem;
+}
+
+.Text{
+    @include Font($primaryfont,1rem,600,1.2rem,#000000);
+}
+
+.Subtext{
+    @include flexcenter(center,center,column);
+    @include Font($primaryfont,0.9rem,400,1.2rem,#656565);
+    width:100%;
+}
+
+
+@media(max-width: 576px){
+    .Heading{
+        @include Font($primaryfont,3.5rem,600,4.2rem,#000000);
+    }
+
+    .Container2{
+        padding: 1rem;
+    }
+    
+    .Card{
+        width:100%;
+        margin-top: 3rem;
+    }
+}
