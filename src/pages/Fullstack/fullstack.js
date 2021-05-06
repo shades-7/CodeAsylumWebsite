@@ -5,19 +5,20 @@ import NavBar from '../../components/Common/NavBar/navbar'
 import Landing from '../../components/Courses/Landing/landing'
 import Overview from '../../components/Courses/Overview/overview'
 import CourseDetail from '../../components/Courses/CourseDetail/course'
+import Footer from '../../components/Common/Footer/footer'
 
 const fullstack =() =>{
     return(
-        <>
+        <React.Fragment>
             <div className={styles.landing}>
                 <NavBar />
                 <Landing />
-                <Overview />
-                <CourseDetail />
             </div>
+            <Overview />
+            <CourseDetail />
+            <Footer />
             
-            
-        </>
+        </React.Fragment>
     )
 }
 
