@@ -1,0 +1,171 @@
+@import '../../Common/necessary.module.scss';
+
+.Container{
+    @include flexcenter(center,center,column);
+    width:100%;
+    background-color: #fafafa;
+    padding: 2rem;
+    
+}
+
+.FormContainer{
+    @include flexcenter(center,center,row);
+    width: 80%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+}
+
+.BgContainer{
+    @include flexcenter(flex-start,center,row);
+    width: 40%;
+}
+
+.RightContainer{
+    @include flexcenter(center,center,column);
+    width: 60%;
+}
+
+.SubContainer{
+    @include flexcenter(flex-start,flex-start,row);
+    width: 100%;
+}
+
+.Form{
+    @include flexcenter(center,center,row);
+    width: 70%;
+    margin-right: 4rem;
+}
+
+.CustomForm{
+    @include flexcenter(center,flex-start,column);
+    width: 100%;
+}
+
+.row{
+    @include flexcenter(center,space-between,row); 
+    margin-top: 0.8rem;
+}
+
+.alignment{
+    @include flexcenter(center,flex-start,column);
+}
+
+.label{
+    @include Font($primaryfont,1rem,600,1rem,#343434);
+    margin-bottom: 0.8rem;
+}
+
+.input{
+    margin-bottom: 0.8rem;
+    height:2.2rem;
+    width:80%;
+    border: 1px solid #7a7a7a;
+    border-radius: 3px;
+    padding-left: 1rem;
+}
+
+.input1{
+    @extend .input;
+    width:80%;
+}
+
+.button{
+    @include button2;
+    height:2rem;
+    width:20%;
+    margin-top: 1rem;
+}
+
+.Icon{
+    @include flexcenter(flex-start,flex-start,row);
+    width: 20%;
+    
+}
+
+.TextContainer{
+    @include flexcenter(flex-start,flex-start,column);
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.Heading{
+    @include flexcenter(center,flex-start,column);
+    width: 90%;
+    @include Font($primaryfont,2.5rem,600,2.7rem,#000000);
+    text-align: left;
+}
+
+.text{
+    @include Font($primaryfont,1.2rem,600,1.5rem,#000000);
+    margin-top: 0.8rem;
+    width:100%;
+}
+
+
+@media(max-width: 576px){
+
+    .Container{
+        padding: 1rem;
+    }
+
+    .FormContainer{
+        @include flexcenter(center,center,column);
+        width: 100%;
+        padding:1rem;
+    }
+    
+    .BgContainer{
+        display:none;
+    }
+    
+    .RightContainer{
+       flex-direction: column-reverse;
+        width: 100%;
+        padding:0.8rem;
+    }
+
+    .TextContainer{
+        margin-top: 1rem;
+    }
+    
+    .Heading{
+        @include flexcenter(center,center,column);
+        @include Font($primaryfont,1.8rem,600,2rem,#000000);
+        text-align: center;
+        margin-bottom: 1.2rem;
+    }
+    
+    .text{
+        @include Font($primaryfont,1rem,400,1.2rem,#000000);
+        text-align: center;
+    }
+
+    .Form{
+        width: 100%;
+        margin-right: 0rem;
+        margin-top: 2rem;
+    }
+
+    .input{
+        width:97%;
+    }
+    
+    .input1{
+        width:95%;
+    }
+    
+    .button{
+        height:2.2rem;
+        width:50%;
+        margin-top: 1rem;
+    }
+    
+    .Icon{
+       display: none; 
+    }
+}
