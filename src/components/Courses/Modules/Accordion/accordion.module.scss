@@ -1,0 +1,44 @@
+@import"../../../Common/necessary.module.scss";
+
+.SubContainer{
+    @include flexcenter(space-between,center,row);
+    width:90%; 
+    background-color: #D6D0FF;
+    height: 4rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    @include Font($secondaryfont, 1rem ,400 ,1.2rem ,#343434 );
+    padding: 0rem 2rem;
+}
+
+.Content{
+    @include flexcenter(center,center,column);
+    width:90%; 
+    background-color: rgb(208, 202, 255);
+    padding:2rem;
+    display:none;
+    transition: display 2s;
+   
+}
+
+.ActiveContent{
+    @include flexcenter(center,center,column);
+    width:90%; 
+    background-color:#fafafa;
+    display:block;
+    padding:1rem;
+    border: 2px solid #D6D0FF;
+    border-radius: 10px;
+    margin-top: 5px;
+    @include Font($secondaryfont, 1rem ,400 ,1.2rem ,#343434 );
+}
+
+@media(max-width: 576px){
+    .SubContainer{
+       width:100%;
+    }
+
+    .ActiveContent{
+        width:100%;
+    }
+}

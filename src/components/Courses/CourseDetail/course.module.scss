@@ -4,7 +4,7 @@
     @include flexcenter(center,center,column);
     width:100%;
     background-color: #fafafa;
-    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .Heading{
@@ -48,7 +48,7 @@
 
 @media(max-width: 576px){
     .Heading{
-        @include Font($primaryfont,3.5rem,600,4.2rem,#000000);
+        @include Font($primaryfont,2.5rem,600,2.7rem,#000000);
     }
 
     .Container2{

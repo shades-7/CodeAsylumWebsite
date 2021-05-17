@@ -1,0 +1,82 @@
+@import'../../Common/necessary.module.scss';
+
+.Container{
+    @include flexcenter(center,center,column);
+    background-color: #fafafa;
+    width: 100%;
+}
+
+.Heading{
+    @include flexcenter(center,center,column);
+    width:80%;
+    @include Font($primaryfont,3.5rem,600,4.2rem,$primarycolor);
+}
+
+.AccordionContainer{
+    @include flexcenter(center,flex-start,column);
+    width:85%;
+    border-radius: 20px;
+    box-shadow:0 7px 30px -10px rgba(150,170,180,0.5);
+    margin:3rem 0rem;
+    padding:4rem 2rem;
+}
+
+.ModContainer{
+    @include flexcenter(center,center,row);
+    width: 100%;
+    padding: 1.5rem 0rem;
+    position: relative;
+}
+
+.DesignContainer{
+    @include flexcenter(center,center,column);
+    height: 100%;
+    width: 8%;
+    height:auto;
+}
+
+.bullet{
+    @include flexcenter(center,center,column);
+    background-color: #675EAA;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+}
+
+.Line{
+    @include flexcenter(center,center,column);
+    width:5%; 
+    border-right: 1px solid #675EAA;
+    box-sizing: border-box;
+    height: 100%;
+    position: absolute;
+}
+
+.DetailContainer{
+    @include flexcenter(space-between,center,column);
+    width:90%; 
+}
+
+.ModHeading{
+    @include flexcenter(center,flex-start,column);
+    width:90%;
+    @include Font($primaryfont, 1.5rem ,400 ,1.5rem ,#343434 );
+}
+
+@media(max-width: 576px){
+    .Heading{
+        @include Font($primaryfont,2.5rem,600,2.7rem,$primarycolor);
+    }
+    
+    .AccordionContainer{
+        width:100%;
+    }
+
+    .DesignContainer{
+        width: 8%;
+    }
+
+
+}

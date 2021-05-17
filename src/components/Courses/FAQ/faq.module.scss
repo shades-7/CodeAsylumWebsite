@@ -1,0 +1,31 @@
+@import'../../../components/Common/necessary.module.scss';
+
+.Container{
+    @include flexcenter(center,center,column);
+    width: 100%;
+    background-color: #F1F2F4;
+}
+
+.Heading{
+    @include flexcenter(center,center,column);
+    @include Font($primaryfont,3.5rem,600,4.2rem,#000000);
+}
+
+.Container2{
+    width:80%;
+    background-color: #F1F2F4;
+    margin: 2rem 0rem;
+    @include flexcenter(center,center,column);
+}
+
+@media (max-width: 576px){
+    .Heading{
+        @include Font($primaryfont,2.5rem,600,2.7rem,#000000);
+        width:90%;
+       margin-top: 2rem;
+    }
+    .Container2{
+        width:85%;
+        margin: 1rem 0rem;
+    }
+}
