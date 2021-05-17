@@ -23,6 +23,7 @@
 .BgContainer{
     @include flexcenter(flex-start,center,row);
     width: 40%;
+    overflow: hidden;
 }
 
 .RightContainer{
@@ -76,8 +77,8 @@
 
 .button{
     @include button2;
-    height:2rem;
-    width:20%;
+    height:2.5rem;
+    width:35%;
     margin-top: 1rem;
 }
 
@@ -96,8 +97,9 @@
 .Heading{
     @include flexcenter(center,flex-start,column);
     width: 90%;
-    @include Font($primaryfont,2.5rem,600,2.7rem,#000000);
+    @include Font($primaryfont,1.8rem,600,2rem,#000000);
     text-align: left;
+    margin-bottom: 1.5rem;
 }
 
 .text{
@@ -116,7 +118,7 @@
     .FormContainer{
         @include flexcenter(center,center,column);
         width: 100%;
-        padding:1rem;
+        padding:0.8em;
     }
     
     .BgContainer{
@@ -162,7 +164,8 @@
     .button{
         height:2.2rem;
         width:50%;
-        margin-top: 1rem;
+        height: 2.8rem;
+        margin: 1rem 0rem;
     }
     
     .Icon{

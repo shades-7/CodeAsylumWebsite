@@ -33,12 +33,20 @@
     @include Font($secondaryfont, 1rem ,400 ,1.2rem ,#343434 );
 }
 
+.active{
+    transition: 0.5s;
+    transform: rotate(-45deg)
+    
+}
+
 @media(max-width: 576px){
     .SubContainer{
        width:100%;
+       @include Font($secondaryfont, 0.9rem ,400 ,1.1rem ,#343434 );
     }
 
     .ActiveContent{
         width:100%;
+        @include Font($secondaryfont, 0.9rem ,400 ,1.2rem ,#343434 );
     }
 }

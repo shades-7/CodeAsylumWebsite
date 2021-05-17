@@ -18,7 +18,7 @@ const graduatesData = ({Card}) =>{
         <Layout>
             <div className = {styles.container}>
                 <div className={styles.header}>
-                    <p>Meet our star  <span style={{color:"#2E368F"}}>coders</span></p>
+                    <p>Meet our coding bootcamp <span style={{color:"#2E368F"}}>Mentors</span></p>
                 </div>
                 <div className={styles.cardContainer}>
                     {
@@ -96,9 +96,9 @@ const graduatesData = ({Card}) =>{
                     }
 
                 </div>
-                <Link to={'/Alumni/alumni'} className={styles.buttonContainer}>
+                <Link to={'/Mentor/mentor'} className={styles.buttonContainer}>
                    
-                        <button className={styles.button}> Success Stories</button>
+                        <button className={styles.button}>View More</button>
                 </Link>
             </div>
         </Layout>

@@ -76,6 +76,7 @@
     width:50%;
     margin-top: 20px;  
     padding:0.5rem; 
+    text-decoration: none;
 }
 
 @media(max-width: 576px){
@@ -111,14 +112,14 @@
 
     .card{
         @include flexcenter(center,center,column);
-        width:90%;
+        width:80%;
         height: auto;
         margin-right: 0rem;
-        padding:2rem 0rem;
+        padding:1.5rem 0rem;
        
     }
     .image{
-        width:75%;
+        width:90%;
     }
     
     .name{

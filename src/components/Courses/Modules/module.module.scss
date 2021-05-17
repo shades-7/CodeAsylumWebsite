@@ -18,11 +18,11 @@
     border-radius: 20px;
     box-shadow:0 7px 30px -10px rgba(150,170,180,0.5);
     margin:3rem 0rem;
-    padding:4rem 2rem;
+    padding:4rem 2rem 4rem 5rem;
 }
 
 .ModContainer{
-    @include flexcenter(center,center,row);
+    @include flexcenter(flex-start,center,row);
     width: 100%;
     padding: 1.5rem 0rem;
     position: relative;
@@ -31,8 +31,7 @@
 .DesignContainer{
     @include flexcenter(center,center,column);
     height: 100%;
-    width: 8%;
-    height:auto;
+   position: absolute;
 }
 
 .bullet{
@@ -41,8 +40,6 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    position: absolute;
-    z-index: 10;
 }
 
 .Line{
@@ -51,7 +48,6 @@
     border-right: 1px solid #675EAA;
     box-sizing: border-box;
     height: 100%;
-    position: absolute;
 }
 
 .DetailContainer{
@@ -72,11 +68,18 @@
     
     .AccordionContainer{
         width:100%;
+        padding:2rem 1rem;
     }
 
     .DesignContainer{
         width: 8%;
+       padding:0rem;
+    }
+    
+    .DetailContainer{
+        margin-left: 2rem;
     }
 
+    
 
 }

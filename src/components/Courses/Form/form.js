@@ -37,7 +37,8 @@ const form = () =>{
                         </div>
                         <div className={styles.TextContainer}>
                             <div className={styles.Heading}>
-                                Upcoming batches every <span style={{color: "#2E388E"}}>10th of the Month</span>
+                                {/* Upcoming batches every <span style={{color: "#2E388E"}}>10th of the Month</span> */}
+                                <p>Upcoming batches every <span style={{color: "#2E388E"}}>10th of the Month</span></p>
                             </div>
                             <p className={styles.text}>Offline bootcamps ₹35,000 + GST ₹45,000</p>
                             <p className={styles.text}>Offline bootcamps ₹35,000 + GST ₹45,000</p>
