@@ -1,11 +1,33 @@
-import React from 'react'
-import styles from './module.module.scss'
-import Accordion from './Accordion/accordion'
 
-const Module = (props) =>{
+import JS from '../../../images/js.png'
+import JS1 from '../../../images/js1.png'
+import JS2 from '../../../images/js2.png'
+import JS3 from '../../../images/js3.png'
 
-   
-    const Data = [
+    const overviewFS =[
+        {
+            "image" : JS,
+            "title" : "d",
+            "subtext" : "JavaScript is the universal programming language of the web. You'll gain firsthand experience with Javascript and Node ecosystems, as well as modern tooling and libraries such as Babel and webpack."
+        },
+        {
+            "image" : JS1,
+            "title" : "c",
+            "subtext" : "JavaScript is the universal programming language of the web. You'll gain firsthand experience with Javascript and Node ecosystems, as well as modern tooling and libraries such as Babel and webpack."
+        },
+        {
+            "image" : JS2,
+            "title" : "a",
+            "subtext" : "JavaScript is the universal programming language of the web. You'll gain firsthand experience with Javascript and Node ecosystems, as well as modern tooling and libraries such as Babel and webpack."
+        },
+        {
+            "image" : JS3,
+            "title" : "d",
+            "subtext" : "JavaScript is the universal programming language of the web. You'll gain firsthand experience with Javascript and Node ecosystems, as well as modern tooling and libraries such as Babel and webpack."
+        }
+    ]
+
+    const DataFS = [
         {
             module: "Module 1",
             submodule : [
@@ -102,43 +124,9 @@ const Module = (props) =>{
 
     ]
 
-    return(
-        <React.Fragment>
-           <div className={styles.Container}>
-                <div className={styles.Heading}>
-                    <p> <span style={{color:"#000000"}}>COURSE</span> CURRICULUM</p>
-                </div>
-                <div className={styles.AccordionContainer}>
-                {
-                        props.ModuleContent.map((item,index)=>{
-                            const {module, submodule} = item;
-                            return(
-                                <div key={index} className={styles.ModContainer}>
-
-                                    <div className={styles.DesignContainer}>
-                                        <div className={styles.bullet}></div>
-                                        <div className={styles.Line}></div>
-                                    </div>
-
-                                    <div className={styles.DetailContainer}>
-                                        <div className={styles.ModHeading}> {module} </div>
-                                         {
-                                             submodule.map(({title, content})=>{
-                                                 return(
-                                                     <Accordion title={title} content={content}/>
-                                                 )
-                                             })
-                                         }
-                                    </div>
-
-                                </div>
-                            )
-                        })
-                    }
-                </div>
-           </div>
-        </React.Fragment>
-    )
+    
+    function Dsa() {
+    return overviewFS, DataFS
 }
 
-export default Module;
+export {overviewFS, DataFS};

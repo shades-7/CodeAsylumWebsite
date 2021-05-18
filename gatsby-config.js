@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `CodeAsylums - Best Coding Bootcamp In India `,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Best Online and Ofline Bootcamp In India`,
+    author: `saloni`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

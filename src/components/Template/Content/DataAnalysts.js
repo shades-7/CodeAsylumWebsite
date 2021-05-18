@@ -1,13 +1,35 @@
-import React from 'react'
-import styles from './module.module.scss'
-import Accordion from './Accordion/accordion'
 
-const Module = (props) =>{
+import JS from '../../../images/js.png'
+import JS1 from '../../../images/js1.png'
+import JS2 from '../../../images/js2.png'
+import JS3 from '../../../images/js3.png'
 
-   
-    const Data = [
+    const overviewDA =[
         {
-            module: "Module 1",
+            "image" : JS,
+            "title" : "d",
+            "subtext" : "JavaScript is the universal programming language of the web. You'll gain firsthand experience with Javascript and Node ecosystems, as well as modern tooling and libraries such as Babel and webpack."
+        },
+        {
+            "image" : JS1,
+            "title" : "c",
+            "subtext" : "JavaScript is the universal programming language of the web. You'll gain firsthand experience with Javascript and Node ecosystems, as well as modern tooling and libraries such as Babel and webpack."
+        },
+        {
+            "image" : JS2,
+            "title" : "a",
+            "subtext" : "JavaScript is the universal programming language of the web. You'll gain firsthand experience with Javascript and Node ecosystems, as well as modern tooling and libraries such as Babel and webpack."
+        },
+        {
+            "image" : JS3,
+            "title" : "d",
+            "subtext" : "JavaScript is the universal programming language of the web. You'll gain firsthand experience with Javascript and Node ecosystems, as well as modern tooling and libraries such as Babel and webpack."
+        }
+    ]
+
+    const DataDA = [
+        {
+            module: "Module DA",
             submodule : [
                 {
                 title: "Very basic starting implementation of HTML, CSS, JavaScript, Nodejs",
@@ -28,7 +50,7 @@ const Module = (props) =>{
                 },
                 {
                 title: "More on Javascript",
-                content: "Datatypes, Type conversions, debugging via chrome, Babel, webpack, Object, Arrays, looping through these, In very basic words, what is [this] (not in classes), [new], Array methods, Object methods, String methods, SetTimeout, SetInterval, HTTP requests, XHR, Asynchronous Javascript, callbacks, event loops, API"
+                content: "DataDAtypes, Type conversions, debugging via chrome, Babel, webpack, Object, Arrays, looping through these, In very basic words, what is [this] (not in classes), [new], Array methods, Object methods, String methods, SetTimeout, SetInterval, HTTP requests, XHR, Asynchronous Javascript, callbacks, event loops, API"
                 }
             ]
         },
@@ -46,7 +68,7 @@ const Module = (props) =>{
             submodule : [
                 {
                 title: "NodeJs & MongoDB- 5 Sessions",
-                content: "Error handling, node, npm, webpack implementation, CRUD operation, APIs, Integration of Javascript with nodejs, Postman, Queries, DB integrations in NodeJS, DataBase Design"
+                content: "Error handling, node, npm, webpack implementation, CRUD operation, APIs, Integration of Javascript with nodejs, Postman, Queries, DB integrations in NodeJS, DataDABase Design"
                 }
             ]
         },
@@ -91,7 +113,7 @@ const Module = (props) =>{
             ]
         },
         {
-            module: "Module 9",
+            module: "Module 8",
             submodule : [
                 {
                 title: "Placement Assistance - 2 Sessions",
@@ -102,43 +124,9 @@ const Module = (props) =>{
 
     ]
 
-    return(
-        <React.Fragment>
-           <div className={styles.Container}>
-                <div className={styles.Heading}>
-                    <p> <span style={{color:"#000000"}}>COURSE</span> CURRICULUM</p>
-                </div>
-                <div className={styles.AccordionContainer}>
-                {
-                        props.ModuleContent.map((item,index)=>{
-                            const {module, submodule} = item;
-                            return(
-                                <div key={index} className={styles.ModContainer}>
-
-                                    <div className={styles.DesignContainer}>
-                                        <div className={styles.bullet}></div>
-                                        <div className={styles.Line}></div>
-                                    </div>
-
-                                    <div className={styles.DetailContainer}>
-                                        <div className={styles.ModHeading}> {module} </div>
-                                         {
-                                             submodule.map(({title, content})=>{
-                                                 return(
-                                                     <Accordion title={title} content={content}/>
-                                                 )
-                                             })
-                                         }
-                                    </div>
-
-                                </div>
-                            )
-                        })
-                    }
-                </div>
-           </div>
-        </React.Fragment>
-    )
+    
+    function Dsa() {
+    return overviewDA, DataDA
 }
 
-export default Module;
+export {overviewDA, DataDA};

@@ -6,7 +6,7 @@ import JS1 from '../../../images/js1.png'
 import JS2 from '../../../images/js2.png'
 import JS3 from '../../../images/js3.png'
 
-const Course= () => {
+const Course= (props) => {
 
     const data =[
         {
@@ -40,7 +40,7 @@ const Course= () => {
 
                 <div className={styles.Container2}>
                     {
-                        data.map((item,index)=>(
+                        props.CDcontent.map((item,index)=>(
                             <div key={index} className={styles.Card}>
                                 <div className={styles.Title}>
                                     <div className={styles.Image}>

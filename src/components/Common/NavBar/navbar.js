@@ -46,10 +46,9 @@ const Navbar = (props) =>{
                 </Link>    
 
                 <Link to="/Home/home#courses" smooth={true} className={styles.link} duration={1000}>Bootcamps</Link>
-                {/* <Link to={`/Alumni/alumni`} className={styles.link}>Alumni</Link> */}
+                <Link to={`/Alumni/alumni`} className={styles.link}>Alumni</Link>
                 <Link to={`/Mentor/mentor`} className={styles.link}>Mentors</Link>
                 <div className={styles.space}></div>
-                {/* <a href='https://forms.gle/kxc5gi7mqYwnYUEj9' target='blank' className={styles.button2}>Request Callback</a>   */}
                 <Link to={'https://forms.gle/kxc5gi7mqYwnYUEj9'} target='blank' className={styles.button2}>Request Callback</Link>  
             </div>
 
@@ -60,23 +59,23 @@ const Navbar = (props) =>{
                 <img className={styles.menu} src={ Menu1 } onClick={() => {setOpen(!open)}} alt="Hamburger Menu" />
 
               <div className={ open ? styles.animationactive : styles.animation}>
-                <div className={styles.backdrop} onClick={() => {setOpen(!open)} }></div>
-                <div className={styles.dropdown}>  
-                  {
-                    Content.map((item,index) => {
-                      return(
-                        <Link to={ item.link } className={styles.link1} key={index}> 
-                          <div className={styles.item}>
-                              <div className={styles.icon}>
-                                <img className={styles.image} alt="icon" src = { item.image }/>
-                              </div>
-                              <div className={styles.text}>{ item.text }</div>
-                          </div>
-                        </Link>
-                      )
-                    })
-                  }   
-                </div> 
+                  <div className={styles.backdrop} onClick={() => {setOpen(!open)} }></div>
+                  <div className={styles.dropdown}>  
+                    {
+                      Content.map((item,index) => {
+                        return(
+                          <Link to={ item.link } className={styles.link1} key={index}> 
+                            <div className={styles.item}>
+                                <div className={styles.icon}>
+                                  <img className={styles.image} alt="icon" src = { item.image }/>
+                                </div>
+                                <div className={styles.text}>{ item.text }</div>
+                            </div>
+                          </Link>
+                        )
+                      })
+                    }   
+                  </div> 
               </div>
             </div>    
         </Layout>
