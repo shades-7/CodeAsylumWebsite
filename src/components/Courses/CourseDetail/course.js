@@ -7,7 +7,7 @@ import JS2 from '../../../images/js2.png'
 import JS3 from '../../../images/js3.png'
 
 const Course= (props) => {
-
+            
     const data =[
         {
             "image" : JS,
