@@ -14,28 +14,32 @@
 .Content{
     @include flexcenter(center,center,column);
     width:90%; 
-    background-color: rgb(208, 202, 255);
-    padding:2rem;
-    display:none;
-    transition: display 2s;
-   
-}
-
-.ActiveContent{
-    @include flexcenter(center,center,column);
-    width:90%; 
     background-color:#fafafa;
-    display:block;
-    padding:1rem;
-    border: 2px solid #D6D0FF;
+    padding:0rem 1rem;
+        max-height: 0px;
+        overflow: hidden;
+    border: 0px solid #D6D0FF;
     border-radius: 10px;
     margin-top: 5px;
     @include Font($secondaryfont, 1rem ,400 ,1.2rem ,#343434 );
+        transition: all 0.5s;
+}
+
+.ActiveContent{
+        max-height: auto;
+    border: 2px solid #D6D0FF;
+    padding:3rem;
+   @extend .Content;
+}
+
+.normal{
+    transition: 0.3s ;
+    transform: rotate(0deg)
 }
 
 .active{
-    transition: 0.5s;
-    transform: rotate(-45deg)
+    transition: 0.3s ;
+    transform: rotate(45deg)
     
 }
 
@@ -45,8 +49,13 @@
        @include Font($secondaryfont, 0.9rem ,400 ,1.1rem ,#343434 );
     }
 
-    .ActiveContent{
-        width:100%;
+    .Content{
+        width:100%; 
         @include Font($secondaryfont, 0.9rem ,400 ,1.2rem ,#343434 );
     }
+    
+    .ActiveContent{
+       padding: 6rem 2rem;
+    }
+    
 }

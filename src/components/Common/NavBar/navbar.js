@@ -37,8 +37,6 @@ const Navbar = (props) =>{
         "text" : "Alumni"
       }
     ]      
-
-    
     
       return(
         <Layout>
@@ -51,7 +49,8 @@ const Navbar = (props) =>{
                 {/* <Link to={`/Alumni/alumni`} className={styles.link}>Alumni</Link> */}
                 <Link to={`/Mentor/mentor`} className={styles.link}>Mentors</Link>
                 <div className={styles.space}></div>
-                <a href='https://forms.gle/kxc5gi7mqYwnYUEj9' target='_blank' className={styles.button2}>Request Callback</a>  
+                {/* <a href='https://forms.gle/kxc5gi7mqYwnYUEj9' target='blank' className={styles.button2}>Request Callback</a>   */}
+                <Link to={'https://forms.gle/kxc5gi7mqYwnYUEj9'} target='blank' className={styles.button2}>Request Callback</Link>  
             </div>
 
             <div className={styles.Mobnavbar}>
@@ -60,8 +59,8 @@ const Navbar = (props) =>{
                 </Link>    
                 <img className={styles.menu} src={ Menu1 } onClick={() => {setOpen(!open)}} alt="Hamburger Menu" />
 
-                {open && <>
-                <div className={styles.backdrop} onClick={() => {setOpen(!open)}}></div>
+              <div className={ open ? styles.animationactive : styles.animation}>
+                <div className={styles.backdrop} onClick={() => {setOpen(!open)} }></div>
                 <div className={styles.dropdown}>  
                   {
                     Content.map((item,index) => {
@@ -69,7 +68,7 @@ const Navbar = (props) =>{
                         <Link to={ item.link } className={styles.link1} key={index}> 
                           <div className={styles.item}>
                               <div className={styles.icon}>
-                                <img className={styles.image} alt="image" src = { item.image }/>
+                                <img className={styles.image} alt="icon" src = { item.image }/>
                               </div>
                               <div className={styles.text}>{ item.text }</div>
                           </div>
@@ -77,7 +76,8 @@ const Navbar = (props) =>{
                       )
                     })
                   }   
-                </div> </>}
+                </div> 
+              </div>
             </div>    
         </Layout>
       )

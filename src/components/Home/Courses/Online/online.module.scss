@@ -64,12 +64,13 @@
     background:$bgcolor;
     color:$primarycolor;
     margin-right: 10px;
+    transition: all 0.5s;
     &:focus{
         outline: none;
     }
     &:hover{
         width:10rem;
-        height: 3rem;
+        height: 2.8rem;
         cursor: pointer;
     }
 }
@@ -81,12 +82,13 @@
     background:$primarycolor;
     color:$bgcolor;
     margin-right: 10px;
+    transition: all 0.5s;
     &:focus{
         outline: none;
     }
     &:hover{
         width:10rem;
-        height: 3rem;
+        height: 2.8rem;
         cursor: pointer;
     }
 }
