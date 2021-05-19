@@ -29,15 +29,11 @@ import JS3 from '../../../images/js3.png'
 
     const Data = [
         {
-            module: "Module 8",
+            module: "Module 1",
             submodule : [
                 {
-                title: "Very basic starting implementation of HTML, CSS, JavaScript, Nodejs",
-                content: "Progate Subscription (3 Months)"
-                },
-                {
-                title: "HTML, CSS, Bootstrap - 5 Sessions",
-                content: "Basic HTML syntax, Basic CSS syntax, Basic Layout, Header, Footer, Contents, Forms, Responsive Web Design, Media Queries, Making Your Page Responsive, Implementing Flexbox, Responsive Design, Bootstrap Templates and Components"
+                title: "Python - 7 Sessions",
+                content: "Keywords, Identifiers, Variables, Standard Input & Output, Operators, Control Flow, Strings, Loops, Lists, Tuples, Dictionary, Functions, Lambda, Module, Packages, Error Handling, Map, Reduce, Filter, OOPS, Bitwise operators, Range, Pattern formation, Analysis of Algorithms, Time Complexity, Space Complexity, Analysis of Loops, Lower bound and upper Bound theory, Amortised Analysis, Asymptotic Analysis, Recursion."
                 }
             ]
         },
@@ -45,12 +41,8 @@ import JS3 from '../../../images/js3.png'
             module: "Module 2",
             submodule : [
                 {
-                title: "JavaScript - 10 Sessions",
-                content: "ES6, ECMAScript, JIT compilation vs normal compilation, Window scope, Console, jsbin, jsfiddle, var, let, const, Operators (Your all c++ operators here), Strict typed, loosely typed, alert, confirm, prompt, functions expression, declaration, arrows, Buttons, input."
-                },
-                {
-                title: "More on Javascript",
-                content: "Datatypes, Type conversions, debugging via chrome, Babel, webpack, Object, Arrays, looping through these, In very basic words, what is [this] (not in classes), [new], Array methods, Object methods, String methods, SetTimeout, SetInterval, HTTP requests, XHR, Asynchronous Javascript, callbacks, event loops, API"
+                title: "Number Theory- 4 Sessions",
+                content: "GCD-LCM, Factorials, Fibonacci, Prime Factors, Euler’s Totient Function, Primirality Test, Modular Exponentiation, Sieve of Eratosthenes, Minmax Game, Nim Game, Bit Manipulation, Bit Masking."
                 }
             ]
         },
@@ -58,8 +50,8 @@ import JS3 from '../../../images/js3.png'
             module: "Module 3",
             submodule : [
                 {
-                title: "AdvanceJS - 5 Sessions",
-                content: "Closures, Promises, Bind, Call, Apply, Async, Await, Classes, Destructuring, the Spread operator"
+                title: "Arrays - 4 Sessions",
+                content: "Two pointer approach, Three pointer approach, Sliding window technique, Kadane’s Algorithm, Linear Search, Binary Search, Discrete Binary Search."
                 }
             ]
         },
@@ -67,8 +59,8 @@ import JS3 from '../../../images/js3.png'
             module: "Module 4",
             submodule : [
                 {
-                title: "NodeJs & MongoDB- 5 Sessions",
-                content: "Error handling, node, npm, webpack implementation, CRUD operation, APIs, Integration of Javascript with nodejs, Postman, Queries, DB integrations in NodeJS, DataBase Design"
+                title: "Sorting- 3 Sessions",
+                content: "Bubble Sort,Selection Sort, Insertion Sort, Quick Sort, Merge Sort, Heap Sort."
                 }
             ]
         },
@@ -76,12 +68,8 @@ import JS3 from '../../../images/js3.png'
             module: "Module 5",
             submodule : [
                 {
-                title: "AWS - 2 Sessions",
-                content: "Deploying and hosting the web application using EC2 and S3"
-                },
-                {
-                title: "GIT - 4 Sessions",
-                content: "Staging, Committing, Branching, Can Collaborate the code among peers and other team members involving various code bases."
+                title: "Linked-Lists- 4 Sessions",
+                content: "Insertion,Updation, Deletion in a linked list, Finding and Removing loop in a Linked list, Sorting in Linked list, Doubly Linked List, Circular Linked List Josephus Problem."
                 }
             ]
         },
@@ -89,8 +77,8 @@ import JS3 from '../../../images/js3.png'
             module: "Module 6",
             submodule : [
                 {
-                title: "Mentored Hackathon - 4 Sessions",
-                content: "Frontend Hackathon & Fullstack Hackathon - Teams based project development"
+                title: "Stack and Queue- 6 Sessions",
+                content: "Insertion and deletion in Stacks, Stock Span Problem, Histogram Program, Balanced Parentheses Problem, Insertion and Deletion in Queue, Stack using Queues, Queue using Stacks, STL implementation for Stack and Queues."
                 }
             ]
         },
@@ -98,26 +86,89 @@ import JS3 from '../../../images/js3.png'
             module: "Module 7",
             submodule : [
                 {
-                title: "Project Development Sessions - 7 Sessions",
-                content: "Bootstrap-based responsive static web application for community profiling Integrating Bitcoin API to make a browser-based application E-Commerce Web-Application using MERN stack (end-to-end)"
+                title: "Trees- Binary Tree and Binary Search Tree- 6 Sessions",
+                content: "Insertion, Updation, Deletion in a Tree, Pre-order traversal, Post-order Traversal, In-order Traversal, Level Order Traversal, Boundary Traversal, Diagonal Traversal, Reverse Traversal, Lowest Common Ancestor problem, Mirror of a tree, Binary tree to Linked List and vice-versa."
                 }
             ]
         },
         {
             module: "Module 8",
+            submodule : [
+                {
+                title: "Graphs- 6 Sessions",
+                content: "Graph Representation, Insertion, Updation and Deletion in a Graph, Breadth-first Search, Depth-first Search, Minimum Spanning Tree, Dijkstra’s Algorithm, Prim’s Algorithm, Kruskal’s Algorithm, Topological Sort."
+                }
+            ]
+        },
+        {
+            module: "Module 9",
+            submodule : [
+                {
+                title: "Recursion and Backtracking- 3 Sessions",
+                content: "Backtracking vs DFS, N-Queens Problem, Knight’s Tour Problem, Sudoku Solving Problem, Rat in Maze Problem."
+                }
+            ]
+        },
+        {
+            module: "Module 10",
+            submodule : [
+                {
+                title: "Greedy Algorithm- 3 Sessions",
+                content: "Activity Selection Problem, Job Sequencing Problem, Egyptian Fraction, Fractional Knapsack Problem, Huffman Coding."
+                }
+            ]
+        },
+        {
+            module: "Module 11",
+            submodule : [
+                {
+                title: "Dynamic Programming- 6 Sessions",
+                content: "Top-Down approach, Bottom-up approach, Fibonacci Problem, Knapsack Problem, Egg Dropping Puzzle, Longest Increasing Subsequence, Longest Common Subsequence, Edit Distance, Minimum Cost Path, Cutting Rod Problem. Staircase Problem."
+                }
+            ]
+        },
+        {
+            module: "Module 12",
+            submodule : [
+                {
+                title: "Strings- 4 Sessions",
+                content: "KMP Algorithm, Z Algorithm, Tries, String Manipulation(Palindrome check, Substring check)."
+                }
+            ]
+        },
+        {
+            module: "Module 13",
             submodule : [
                 {
                 title: "Mock Interviews - 2 Sessions",
-                content: "Will be taken by the industry people who are working in startups and product-based Companies."
+                content: "Activity Selection Problem, Job Sequencing Problem, Egyptian Fraction, Fractional Knapsack Problem, Huffman Coding."
                 }
             ]
         },
         {
-            module: "Module 8",
+            module: "Module 14",
+            submodule : [
+                {
+                title: "Coding Competitions - 15 Tests",
+                content: "Coding tests from various algorithms, for pressure handling experience for company interviews."
+                }
+            ]
+        },
+        {
+            module: "Module 15",
+            submodule : [
+                {
+                title: "Assignment Discussion- 15 Sessions",
+                content: "Each topic consists of proper assignment questions for which detailed discussion classes will be hosted."
+                }
+            ]
+        },
+        {
+            module: "Module 16",
             submodule : [
                 {
                 title: "Placement Assistance - 2 Sessions",
-                content: "Tech talks and discussions around the tech and industry culture."
+                content: "Tech talks and discussions around the tech and industry culture. Also, resume consultation by the industry panel."
                 }
             ]
         }
