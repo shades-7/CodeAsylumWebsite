@@ -29,94 +29,84 @@ import JS3 from '../../../images/js3.png'
 
     const DataDA = [
         {
-            module: "Module DA",
+            module: "Fundamentals - 25 sessions",
             submodule : [
                 {
-                title: "Very basic starting implementation of HTML, CSS, JavaScript, Nodejs",
-                content: "Progate Subscription (3 Months)"
+                title: "Guesstimate & Case Study - 5 Sessions",
+                content: "Guesstimate is defined as an estimate made without using adequate or complete information, or, more strongly, as an estimate arrived at by guesswork or conjecture."
                 },
                 {
-                title: "HTML, CSS, Bootstrap - 5 Sessions",
-                content: "Basic HTML syntax, Basic CSS syntax, Basic Layout, Header, Footer, Contents, Forms, Responsive Web Design, Media Queries, Making Your Page Responsive, Implementing Flexbox, Responsive Design, Bootstrap Templates and Components"
-                }
-            ]
-        },
-        {
-            module: "Module 2",
-            submodule : [
-                {
-                title: "JavaScript - 10 Sessions",
-                content: "ES6, ECMAScript, JIT compilation vs normal compilation, Window scope, Console, jsbin, jsfiddle, var, let, const, Operators (Your all c++ operators here), Strict typed, loosely typed, alert, confirm, prompt, functions expression, declaration, arrows, Buttons, input."
+                title: "Excel - 5 Sessions",
+                content: "Excel is used for calculation, graphing tools, pivot tables, and a macro programming language called Visual Basic for Applications."
                 },
                 {
-                title: "More on Javascript",
-                content: "DataDAtypes, Type conversions, debugging via chrome, Babel, webpack, Object, Arrays, looping through these, In very basic words, what is [this] (not in classes), [new], Array methods, Object methods, String methods, SetTimeout, SetInterval, HTTP requests, XHR, Asynchronous Javascript, callbacks, event loops, API"
-                }
-            ]
-        },
-        {
-            module: "Module 3",
-            submodule : [
-                {
-                title: "AdvanceJS - 5 Sessions",
-                content: "Closures, Promises, Bind, Call, Apply, Async, Await, Classes, Destructuring, the Spread operator"
-                }
-            ]
-        },
-        {
-            module: "Module 4",
-            submodule : [
-                {
-                title: "NodeJs & MongoDB- 5 Sessions",
-                content: "Error handling, node, npm, webpack implementation, CRUD operation, APIs, Integration of Javascript with nodejs, Postman, Queries, DB integrations in NodeJS, DataDABase Design"
-                }
-            ]
-        },
-        {
-            module: "Module 5",
-            submodule : [
-                {
-                title: "AWS - 2 Sessions",
-                content: "Deploying and hosting the web application using EC2 and S3"
+                title: "Aptitude Quant & DI - 5 Sessions",
+                content: "For developing the right mindset and brainpower."
                 },
                 {
-                title: "GIT - 4 Sessions",
-                content: "Staging, Committing, Branching, Can Collaborate the code among peers and other team members involving various code bases."
+                title: "Tableau - 5 Sessions",
+                content: "Tableau is the fastest growing data visualization tool that aims to help people see and understand data"
+                },
+                {
+                title: "R - 5 Sessions",
+                content: "R is a programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing."
+                },
+            ]
+        },
+        {
+            module: "SQL - 10 sessions",
+            submodule : [
+                {
+                title: "SQL - 5 Sessions",
+                content: "USE, DESCRIBE, SHOW TABLES, SELECT, LIMIT, OFFSET, ORDER BY, DISTINCT, WHERE, Comparison operators, NULL, Logical Operators, Aggregate Functions: COUNT, MIN, MAX, AVG, SUM, GROUP BY, HAVING, Order of keywords, Join and Natural Join, Inner, Left, Right and Outer joins, Nested Queries, INSERT, UPDATE, DELETE, CREATE TABLE, ADD, MODIFY, DROP, DROP TABLE, TRUNCATE, DELETE, GRANT, REVOKE"
+                },
+                {
+                title: "Advanced SQL - 5 Sessions",
+                content: "Nested Queries over Industry level database"
                 }
             ]
         },
         {
-            module: "Module 6",
+            module: "Python - 7 sessions",
             submodule : [
                 {
-                title: "Mentored Hackathon - 4 Sessions",
-                content: "Frontend Hackathon & Fullstack Hackathon - Teams based project development"
+                title: "Python - 7 Sessions",
+                content: "Keywords, Identifiers, Variables, Standard Input & Output, Operators, Control Flow,Strings, Loops, Lists, Tuples, Dictionary, Functions, Lambda, Module, Packages, FileHandling, Error Handling, Map, Reduce, Filter, Zip"
                 }
             ]
         },
         {
-            module: "Module 7",
+            module: "Hands on problems and test",
             submodule : [
                 {
-                title: "Project Development Sessions - 7 Sessions",
-                content: "Bootstrap-based responsive static web application for community profiling Integrating Bitcoin API to make a browser-based application E-Commerce Web-Application using MERN stack (end-to-end)"
+                title: "Test, Assignments and Discussions",
+                content: "Hackerrank Tests for SQL & Python, Assignments for Tableau & R programming, Case Studies Discussions."
                 }
             ]
         },
         {
-            module: "Module 8",
+            module: "Case studies",
             submodule : [
                 {
-                title: "Mock Interviews - 2 Sessions",
-                content: "Will be taken by the industry people who are working in startups and product-based Companies."
+                title: "Case Study & Analysis Sessions - 5 Sessions (1 - 2 Case Studies)",
+                content: "Remote learning, distance education, and online learning during the COVID19 pandemic"
                 }
             ]
         },
         {
-            module: "Module 8",
+            module: "Interview Preparation - 2 sessions",
             submodule : [
                 {
-                title: "Placement Assistance - 2 Sessions",
+                title: "Interview Preparation",
+                content: "Will be taken by the industry people who are working in startups and product-based Companies"
+                }
+            ]
+        },
+        {
+            module: "Placement Assistance - 2 Sessions",
+            submodule : [
+                {
+                title: "Career and placement support",
                 content: "Tech talks and discussions around the tech and industry culture."
                 }
             ]
