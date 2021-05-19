@@ -4,7 +4,7 @@ import JS1 from '../../../images/js1.png'
 import JS2 from '../../../images/js2.png'
 import JS3 from '../../../images/js3.png'
 
-    const overview =[
+    const detailsDSA =[
         {
             "image" : JS,
             "title" : "d",
@@ -27,7 +27,7 @@ import JS3 from '../../../images/js3.png'
         }
     ]
 
-    const Data = [
+    const DataDSA = [
         {
             module: "Module 1",
             submodule : [
@@ -175,9 +175,21 @@ import JS3 from '../../../images/js3.png'
 
     ]
 
+    const overviewDSA = 
+    {
+        content: "Specifically tailored for those looking to boost their knowledge in Data Structures & Algorithms, our curated content takes a deep dive into algorithms like Trees, Graphs & Dynamic Programming. Supported with HackerRank Contests, Self Practice Material, and a Hands-On Coding Sessions and Pair Programming. We ensure that you'll be ready for every coding test."
+    }
+
+    const landingDSA = 
+    {
+        heading: "Data Structures and ",
+        headingHighlight:"Algorithms",
+        containt:"Implement Data Structures and crack coding interviews"
+    }
+
     
     function Dsa() {
-    return overview, Data
+    return detailsDSA, DataDSA, overviewDSA, landingDSA
 }
 
-export {overview, Data};
+export {detailsDSA, DataDSA, overviewDSA, landingDSA};

@@ -3,7 +3,7 @@ import styles from './landing.module.scss';
 
 import Pic from '../../../images/pic.png'
 import Nagu from '../../../images/Nagu.png'
-const App =() =>{
+const App =(props) =>{
     return(
         <>
             <div className={styles.Container1}>
@@ -17,13 +17,13 @@ const App =() =>{
                         <p>Online | 3 Months | Live Mentorship | Interview + Job Assistance</p>
                     </div>
                     <div className={styles.heading}>
-                        <p>Full-Stack Web<span style={{color: "#2E368F"}}> Development </span></p>
+                        <p>{props.LandingContent.heading}<span style={{color: "#2E368F"}}> {props.LandingContent.headingHighlight} </span></p>
                     </div>
                     <div className={styles.subheading}>
                         <p>ONLINE (3 WEEKS)</p>
                     </div>
                     <div className={styles.containt}>
-                        <p>In 3 intensive weeks, learn all the skills of a Software Developer, code your own web applications from scratch and change your career.</p>
+                        <p>{props.LandingContent.containt}</p>
                     </div>
                     <div className={styles.button}>
                         <button className={styles.button2}>APPLY NOW</button>

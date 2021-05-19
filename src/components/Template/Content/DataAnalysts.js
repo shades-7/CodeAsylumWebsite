@@ -4,7 +4,7 @@ import JS1 from '../../../images/js1.png'
 import JS2 from '../../../images/js2.png'
 import JS3 from '../../../images/js3.png'
 
-    const overviewDA =[
+    const detailsDA =[
         {
             "image" : JS,
             "title" : "d",
@@ -114,9 +114,21 @@ import JS3 from '../../../images/js3.png'
 
     ]
 
+    const overviewDA = 
+    {
+        content: "Let Data do the talking for you. Derive insights, trends and inferences from real-world data using technologies like SQL, Python, Tableau. Join today to land exciting career opportunities in the hottest career prospect of the century. 3 Month intensive training on the latest Data Analytics tools and Technologies to make you learn Data Analytics from scratch!"
+    }
+
+    const landingDA = 
+    {
+        heading: "Data Analyst with ",
+        headingHighlight:"Business Analysts",
+        containt:"Become a Data Analyst in 91 days"
+    }
+
     
     function Dsa() {
-    return overviewDA, DataDA
+    return detailsDA, DataDA, overviewDA, landingDA
 }
 
-export {overviewDA, DataDA};
+export {detailsDA, DataDA, overviewDA, landingDA};

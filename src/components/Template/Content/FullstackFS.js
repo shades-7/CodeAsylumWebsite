@@ -4,7 +4,7 @@ import JS1 from '../../../images/js1.png'
 import JS2 from '../../../images/js2.png'
 import JS3 from '../../../images/js3.png'
 
-    const overviewFS =[
+    const detailsFS =[
         {
             "image" : JS,
             "title" : "d",
@@ -124,9 +124,21 @@ import JS3 from '../../../images/js3.png'
 
     ]
 
+    const overviewFS = 
+    {
+        content: "Made for those with a passion for design, development and programming expertise, this course enables the average working professional to learn FullStack from scratch, with Industry-relevant projects and live exposure to both Client & Server-side Technologies like React, JavaScript, NodeJs, AWS and Git."
+    }
+
+    const landingFS = 
+    {
+        heading: "Full-Stack Web",
+        headingHighlight:"Development",
+        containt:"In 3 intensive weeks, learn all the skills of a Software Developer, code your own web applications from scratch and change your career."
+    }
+
     
     function Dsa() {
-    return overviewFS, DataFS
+    return detailsFS, DataFS, overviewFS, landingFS
 }
 
-export {overviewFS, DataFS};
+export {detailsFS, DataFS, overviewFS, landingFS};

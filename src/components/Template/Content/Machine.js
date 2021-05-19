@@ -4,7 +4,7 @@ import JS1 from '../../../images/js1.png'
 import JS2 from '../../../images/js2.png'
 import JS3 from '../../../images/js3.png'
 
-    const overviewML =[
+    const detailsML =[
         {
             "image" : JS,
             "title" : "ML",
@@ -38,7 +38,7 @@ import JS3 from '../../../images/js3.png'
             ]
         },
         {
-            module: "",
+            module: "Mathematics & Statistics - 10 Sessions",
             submodule : [
                 {
                 title: "Linear Algebra",
@@ -140,9 +140,20 @@ import JS3 from '../../../images/js3.png'
 
     ]
 
+    const overviewML = 
+    {
+        content: "For the people who are interested in extracting insightful information from structured as well as unstructured data and want to switch careers in Machine Learning to become a Data Scientist."
+    }
+
+    const landingML = 
+    {
+        heading: "Data Science & ",
+        headingHighlight:"Machine Learning",
+        containt:"Crack the coding interviews of Tier-1 Data Science based companies"
+    }
     
     function Dsa() {
-    return overviewML, DataML
+    return detailsML, DataML, overviewML, landingML
 }
 
-export {overviewML, DataML};
+export {detailsML, DataML, overviewML,landingML};

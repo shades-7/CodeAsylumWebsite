@@ -6,7 +6,7 @@ import Img2 from '../../../images/overview2.png'
 import Img3 from '../../../images/overview3.png'
 import Img4 from '../../../images/overview4.png'
 
-const overview=()=>{
+const overview=(props)=>{
     const data=[
         {
             "image": Img1,
@@ -50,7 +50,7 @@ const overview=()=>{
                 </div>
 
                 <div className={styles.Container3}>
-                    <p className={styles.text1}>The goal of our Web Development Bootcamp is to transform you into a professional web developer. You'll come to understand coding logic using popular languages and frameworks like JavaScript & Ruby on Rails, while learning how to think like a programmer by building software from the ground up. Our web development bootcamp will provide you with mentorship, data-driven curriculum, and a top notch learning environment that will launch you into your first Junior Web Developer role.</p>
+                    <p className={styles.text1}>{props.OverviewContent.content}</p>
                 </div>
             </div>
         </>
