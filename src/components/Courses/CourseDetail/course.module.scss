@@ -4,25 +4,25 @@
     @include flexcenter(center,center,column);
     width:100%;
     background-color: #fafafa;
-    padding-bottom: 1rem;
+    padding: 2rem 0rem 4rem 0rem;
 }
 
 .Heading{
     @include flexcenter(center,center,column);
     width:80%;
-    @include Font($primaryfont,3.5rem,600,4.2rem,#000000);
+    @include Font($primaryfont,3rem,600,3.2rem,#000000);
 }
 
 .Container2{
     @include flexcenter(space-around,center,row);
     width:80%;
     flex-wrap: wrap;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .Card{
     @include flexcenter(center,center,column);
-    width:38%;
+    width:34%;
     margin-top: 3rem;
     background-color: #DFDDF3;
     border-radius: 20px;
@@ -52,11 +52,11 @@
     }
 
     .Container2{
-        padding: 1rem;
+        padding: 0rem;
     }
     
     .Card{
         width:100%;
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 }

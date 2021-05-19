@@ -44,7 +44,7 @@ const graduates = () =>{
         <Layout>
             <div className = {styles.container}>
                 <div className={styles.header}>
-                    <p>Meet our star  <span style={{color:"#2E368F"}}>coders</span></p>
+                    <p> MEET OUR STAR  <span style={{color:"#2E368F"}}>CODERS</span></p>
                 </div>
                 <div className={styles.cardContainer}>
                     {

@@ -4,12 +4,13 @@
     @include flexcenter(center,center,column);
     background-color: #fafafa;
     width: 100%;
+    padding:3rem 0rem 2rem 0rem;
 }
 
 .Heading{
     @include flexcenter(center,center,column);
     width:80%;
-    @include Font($primaryfont,3.5rem,600,4.2rem,$primarycolor);
+    @include Font($primaryfont,3rem,600,3.2rem,$primarycolor);
 }
 
 .AccordionContainer{
@@ -67,8 +68,9 @@
     }
     
     .AccordionContainer{
-        width:100%;
+        width:95%;
         padding:2rem 1rem;
+        margin-top: 2rem;
     }
 
     .DesignContainer{

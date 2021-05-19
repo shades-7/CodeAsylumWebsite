@@ -6,3 +6,9 @@
     height: 100vh;
     width: 100%;
 }
+
+@media(max-width:576px){
+  .landing{
+    height: 85vh;
+  }  
+}

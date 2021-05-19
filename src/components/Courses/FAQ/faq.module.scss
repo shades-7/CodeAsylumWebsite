@@ -4,11 +4,12 @@
     @include flexcenter(center,center,column);
     width: 100%;
     background-color: #F1F2F4;
+    padding: 2rem 0rem;
 }
 
 .Heading{
     @include flexcenter(center,center,column);
-    @include Font($primaryfont,3.5rem,600,4.2rem,#000000);
+    @include Font($primaryfont,3rem,600,3.2rem,#000000);
 }
 
 .Container2{

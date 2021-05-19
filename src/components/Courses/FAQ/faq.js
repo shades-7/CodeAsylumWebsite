@@ -32,7 +32,7 @@ const Faq = () => {
         <>
            <div className={styles.Container}>
                 <div className={styles.Heading}>
-                    <p>Frequently Asked <span style={{color: "#2E388E"}}>Questions</span></p>
+                    <p>FREQUENTLY ASKED <span style={{color: "#2E388E"}}>QUESTIONS</span></p>
                 </div>
 
                 <div className={styles.Container2}>

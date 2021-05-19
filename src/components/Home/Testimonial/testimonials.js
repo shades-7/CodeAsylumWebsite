@@ -64,7 +64,7 @@ const Team = (props) => {
                 <div className={styles.container2}>
                     <img className={styles.mob} src= { bg } alt="background" width="100%" />
                     <div className={styles.heading}>
-                        <p>Testimonials</p>
+                        <p>TESTIMONIALS</p>
                     </div>
                     <div className={styles.card}>
                         <div className={styles.Img}>

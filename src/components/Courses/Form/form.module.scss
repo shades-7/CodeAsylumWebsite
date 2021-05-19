@@ -4,8 +4,15 @@
     @include flexcenter(center,center,column);
     width:100%;
     background-color: #fafafa;
-    padding: 2rem;
+    padding: 3rem 0rem;
     
+}
+
+.preHeading{
+    @include flexcenter(center,center,column);
+    @include Font($primaryfont,3rem,600,3.2rem,#000000);
+    align-items: center;
+    padding: 2rem 0rem;
 }
 
 .FormContainer{
@@ -112,7 +119,13 @@
 @media(max-width: 576px){
 
     .Container{
-        padding: 1rem;
+        padding: 2rem 1rem 4rem 1rem;
+        background-color: #DFDDF3;
+    }
+
+    .preHeading{
+        @include Font($primaryfont,2.5rem,600,2.7rem,#000000);
+        padding: 2rem 0rem;
     }
 
     .FormContainer{

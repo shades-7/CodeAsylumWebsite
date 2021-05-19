@@ -4,11 +4,12 @@
     width:100%;
     @include flexcenter(center,center,column);
     background-color: #fafafa;
+    padding-top:4rem;
 }
 .heading{
     width:100%;
     @include flexcenter(center,center,column);
-    @include Font(Roboto, 3rem , bold ,3.5rem , $primarycolor );
+    @include Font(Roboto, 3rem , bold ,3.2rem , $primarycolor );
     position: absolute;
     top:10px;
 }
@@ -60,7 +61,7 @@
 
 @media(max-width: 576px){
     .heading{
-        @include Font(Roboto, 1.8rem , bold ,1.2rem , $primarycolor );
+        @include Font(Roboto, 2.5rem , bold ,2.7rem , $primarycolor );
         position: static;
         margin-top: 1rem;
     }

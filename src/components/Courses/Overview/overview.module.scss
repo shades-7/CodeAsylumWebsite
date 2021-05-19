@@ -4,11 +4,12 @@
     @include flexcenter(center,center,column);
     width: 100%;
     background-color: #fafafa;
+    padding:2rem 0rem;
 }
 
 .Heading{
     @include flexcenter(center,center,column);
-    @include Font($primaryfont,3.5rem,600,4.2rem,$primarycolor);
+    @include Font($primaryfont,3rem,600,3.2rem,$primarycolor);
 }
 
 .Container2{
@@ -39,7 +40,7 @@
     @include flexcenter(center,center,column);
     width:80%;
     background-color: #fafafa;
-    margin: 2rem 0 3rem 0;
+    margin: 1rem 0 3rem 0;
 }
 
 .text1{
@@ -49,6 +50,9 @@
 }
 
 @media(max-width: 576px){
+    .Container{
+        padding-top: 3rem; 
+    }
     .Container2{
         width:90%;
         height: 12vh;
@@ -74,5 +78,14 @@
         width:90%;
         @include Font($secondaryfont,0.5rem,400,0.8rem,#ffffff);
         align-items: center;
+    }
+
+    .Container3{
+        width:85%;
+        margin: 0rem;
+    }
+
+    .text1{
+        @include Font($secondaryfont,1rem,400,1.2rem,#484848); 
     }
 }

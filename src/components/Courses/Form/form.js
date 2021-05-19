@@ -7,6 +7,10 @@ const form = () =>{
     return(
         <>
             <div className={styles.Container}>
+                <div className={styles.preHeading}>
+                    <p>SCHEDULE A <span style={{color:"#2E388E"}}>CALL</span></p>
+                </div>
+
                 <div className={styles.FormContainer}>
                     <div className={styles.BgContainer}>
                         <img src={ Bg } alt="guy with laptop" width="85%" />
