@@ -29,94 +29,110 @@ import JS3 from '../../../images/js3.png'
 
     const DataML = [
         {
-            module: "Module 8",
+            module: "Python - 5 Sessions",
             submodule : [
                 {
-                title: "Very basic starting implementation of HTML, CSS, JavaScript, Nodejs",
-                content: "Progate Subscription (3 Months)"
+                title: "Python",
+                content: "Keywords, Identifiers, Variables, Standard Input & Output,operators, Control Flow, Strings, Loops, Lists, Tuples, Dictionary, Functions, Lambda, Module, Packages, File Handling, Error Handling, Map, Reduce, Filter, Zip."
+                }
+            ]
+        },
+        {
+            module: "",
+            submodule : [
+                {
+                title: "Linear Algebra",
+                content: "Scalars, Vectors, Matrices, Tensors, Determinant, Dot Product, Hyperplane, Linear Dependence, and Span, Norms, Eigen decomposition, Singular Value Decomposition"
                 },
                 {
-                title: "HTML, CSS, Bootstrap - 5 Sessions",
-                content: "Basic HTML syntax, Basic CSS syntax, Basic Layout, Header, Footer, Contents, Forms, Responsive Web Design, Media Queries, Making Your Page Responsive, Implementing Flexbox, Responsive Design, Bootstrap Templates and Components"
-                }
-            ]
-        },
-        {
-            module: "Module 2",
-            submodule : [
-                {
-                title: "JavaScript - 10 Sessions",
-                content: "ES6, ECMAScript, JIT compilation vs normal compilation, Window scope, Console, jsbin, jsfiddle, var, let, const, Operators (Your all c++ operators here), Strict typed, loosely typed, alert, confirm, prompt, functions expression, declaration, arrows, Buttons, input."
+                title: "Statistics",
+                content: "PDF, CDF, Bayes’ Rule, Expectations, Variance, Covariance, Kernel Density Estimation, Kernel Density Classification, Central Limit Theorem, Chebyshev’s Inequality, Continuous Probability Distribution, and its Significance, Correlation, Confidence Interval, Hypothesis Testing, Conditional Probability"
                 },
                 {
-                title: "More on Javascript",
-                content: "DataMLtypes, Type conversions, debugging via chrome, Babel, webpack, Object, Arrays, looping through these, In very basic words, what is [this] (not in classes), [new], Array methods, Object methods, String methods, SetTimeout, SetInterval, HTTP requests, XHR, Asynchronous Javascript, callbacks, event loops, API"
+                title: "Calculus",
+                content: "Differentiation, Maxima-Minima Concepts, Gradient Descent, Stochastic Gradient Descent"
                 }
             ]
         },
         {
-            module: "Module 3",
+            module: "Exploratory Data Analysis - 7 Sessions",
             submodule : [
                 {
-                title: "AdvanceJS - 5 Sessions",
-                content: "Closures, Promises, Bind, Call, Apply, Async, Await, Classes, Destructuring, the Spread operator"
+                title: "Data Analysis",
+                content: "DVariable Identification, Univariate Analysis, Bivariate Analysis, Missing Value Imputation, Outlier Detection, Feature Engineering, Variable Transformation, Numpy, Pandas, Matplotlib, SciPy, Seaborn, Bar Plot, Histograms, Contingency Table, Heat Map, Scatter Plot, Correlation Matrix, Violin Plot, Line Plots"
                 }
             ]
         },
         {
-            module: "Module 4",
+            module: "Machine Learning - 15 Sessions",
             submodule : [
                 {
-                title: "NodeJs & MongoDB- 5 Sessions",
-                content: "Error handling, node, npm, webpack implementation, CRUD operation, APIs, Integration of Javascript with nodejs, Postman, Queries, DB integrations in NodeJS, DataMLBase Design"
+                title: "Exploring Machine Learning",
+                content: "Linear Regression, Logistic Regression, KNN, Naive Bayes, Decision Tree, Random Forest, SVM, KMeans, PCA, Recommendation System, Accuracy Measurement Technique"
                 }
             ]
         },
         {
-            module: "Module 5",
+            module: "Introduction to Neural Networks - 5 Sessions",
             submodule : [
                 {
-                title: "AWS - 2 Sessions",
-                content: "Deploying and hosting the web application using EC2 and S3"
+                title: "Fundamentals and Concepts of Neural Networks",
+                content: "Basic Awareness sessions on Neural Networks for Deep Learning, Introduction to Artificial Neural Network, Multi-Layer Perceptron & Activation Function."
+                }
+            ]
+        },
+        {
+            module: "Mentored Kaggle Contest - 4 Sessions",
+            submodule : [
+                {
+                title: "Kaggle Based Contest",
+                content: "Teams based project development."
+                }
+            ]
+        },
+        {
+            module: "Project Development Sessions - 7 Sessions",
+            submodule : [
+                {
+                title: "Project 1",
+                content: "Housing Price Prediction"
                 },
                 {
-                title: "GIT - 4 Sessions",
-                content: "Staging, Committing, Branching, Can Collaborate the code among peers and other team members involving various code bases."
+                title: "Project 2",
+                content: "Credit Card Fraud Detection"
+                },
+                {
+                title: "Project 3",
+                content: "Detecting Parkinson's Disease with XGBoost"
+                },
+                {
+                title: "Project 4",
+                content: "Catching Illegal Fishing Projects"
+                },
+                {
+                title: "Project 5",
+                content: "Customer Segmentation"
+                },
+                {
+                title: "Project 6",
+                content: "Corona Research & Predictions"
                 }
             ]
         },
         {
-            module: "Module 6",
+            module: "Mock Interviews - 2 Sessions",
             submodule : [
                 {
-                title: "Mentored Hackathon - 4 Sessions",
-                content: "Frontend Hackathon & Fullstack Hackathon - Teams based project development"
-                }
-            ]
-        },
-        {
-            module: "Module 7",
-            submodule : [
-                {
-                title: "Project Development Sessions - 7 Sessions",
-                content: "Bootstrap-based responsive static web application for community profiling Integrating Bitcoin API to make a browser-based application E-Commerce Web-Application using MERN stack (end-to-end)"
-                }
-            ]
-        },
-        {
-            module: "Module 8",
-            submodule : [
-                {
-                title: "Mock Interviews - 2 Sessions",
+                title: "Interview Preparation",
                 content: "Will be taken by the industry people who are working in startups and product-based Companies."
                 }
             ]
         },
         {
-            module: "Module 8",
+            module: "Placement Assistance- 2 Sessions",
             submodule : [
                 {
-                title: "Placement Assistance - 2 Sessions",
+                title: "Career and placement assistance",
                 content: "Tech talks and discussions around the tech and industry culture."
                 }
             ]
