@@ -1,8 +1,10 @@
 import React from 'react';
 import styles from './landing.module.scss';
+import { Link } from 'gatsby'
 
 import Pic from '../../../images/pic.png'
 import Art from '../../../images/art.png'
+import d from '../../Template/template'
 const App =() =>{
     return(
         <>
@@ -25,7 +27,7 @@ const App =() =>{
                         Coding Bootcamp for both <span style={{color:"#2E368F"}}>Beginners and Experts</span></p>
                     </div>
                     <div className={styles.button}>
-                        <button className={styles.button1}>Request Callback</button>
+                        <Link to={"/courses/FullStack_Web_Development#form"} className={styles.link}><button className={styles.button1}>Request Callback</button></Link>
                         {/* <button className={styles.button2}>Request Call</button> */}
                     </div>
                 </div>

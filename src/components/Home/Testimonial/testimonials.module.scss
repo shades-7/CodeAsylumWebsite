@@ -53,6 +53,7 @@
 .controllerLeft,.controllerRight{
     width:5%;
     margin-left:30px;
+    transition: all 0.3s;
     &:hover{
         width:5.2%;
         cursor: pointer;

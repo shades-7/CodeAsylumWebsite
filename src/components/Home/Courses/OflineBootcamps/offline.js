@@ -1,6 +1,7 @@
 import React from "react"
 import styles from './offline.module.scss'
 import Layout from '../../../Common/layout'
+import { Link } from 'gatsby'
 
 import Pic from '../../../../images/pic.png'
 import PicM from '../../../../images/picM.png'
@@ -28,8 +29,8 @@ const offline = () => {
                             {/* <p>Offline ( 28 Days )</p> */}
                             <p>DSA + Fullstack Web Development</p>
                             <div className={styles.buttonContainer}> 
-                                <button className={styles.button2}>Explore Curriculum</button>
-                                <a href='https://forms.gle/kxc5gi7mqYwnYUEj9' target='_blank' className={styles.button1}>Apply Now</a>
+                                <Link to={"/courses/software_engineer_program"} className={styles.button2}>Explore Curriculum</Link>
+                                <Link to={'https://forms.gle/kxc5gi7mqYwnYUEj9'} target='_blank' className={styles.button1}>Apply Now</Link>
                             </div>
                             <p style={{color: "red",fontWeight:"400"}}>Applications now open for May 14th Bootcamp</p>
                         </div>

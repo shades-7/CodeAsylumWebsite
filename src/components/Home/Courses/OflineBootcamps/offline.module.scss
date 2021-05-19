@@ -4,10 +4,10 @@
     @include flexcenter(center,center ,column );
     width:100%;
     background-color: $bgcolor;
-    padding: 30px 0px;
+    padding: 60px 0px;
     .Heading{
         @include flexcenter(center,center,column);
-        @include Font(Roboto, 2.5rem, 700, 2.7rem, #000000);
+        @include Font(Roboto, 3rem, 700, 3.2rem, #000000);
         padding: 1.5rem;
     }
 }
@@ -69,6 +69,10 @@
 }
 .buttonContainer{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:80%;
+    padding-bottom:1rem;
 }
 .button1{
     @include button2();
@@ -80,24 +84,22 @@
     background-color: #FEFEFE;
     border: 4px solid $primarycolor;
     color: $primarycolor; 
+    font-size: 0.8rem;
     transition: all 0.2s;
     &:hover{
-        background: whitesmoke;
+        width:9.2rem;
+        height:2.7rem;
         cursor: pointer;
     }
 
 }
 .button2{
-    @include button2();
-    height:2.5rem;
-    width:9rem;
-    margin-right: 20px;
-    transition: all 0.2s;
-    margin-bottom: 20px;
-    &:hover{
-        background: $primarycolorhover;
-        cursor: pointer;
-    }
+    @extend .button1;
+    background-color: $primarycolor;
+    color: #ffffff;
+   padding:0.2rem 0rem;
+   text-align: center;
+   font-size: 0.8rem;
 }
 
 @media(max-width: 576px){
@@ -127,8 +129,16 @@
         flex-direction: column;
         align-items: flex-start;
     }
+
     .button2{
-        margin-top: 20px;
+        margin-bottom: 1rem;
     }
+
+    .buttonContainer{
+        flex-direction: column;
+        padding: 1rem 0rem;
+    }
+
+   
 
 }

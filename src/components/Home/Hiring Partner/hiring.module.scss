@@ -4,10 +4,10 @@
     @include flexcenter(center,center,column);
     width:100%;
     background-color: #fafafa;
-    padding:20px;
+    padding:50px;
 }
 .heading{
-    @include flexcenter(center,flex-start,column);
+    @include flexcenter(center,center,column);
     width:80%;
     @include Font($primaryfont,3rem,bold,3.2rem, #000000);
     padding:10px;

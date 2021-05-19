@@ -117,14 +117,14 @@
         height: 100vh;
         z-index: 80;
         position: absolute;
-        top:0px;
-        transform: translateY(-120%);
+        top:90px;
+        transform: translateX(110%);
         transition: transform 0.4s ease-in;
     }
 
     .animationactive{
         @extend .animation;
-        transform: translateY(11%);
+        transform: translateX(0%);
     }
     .backdrop{
         display: block;
@@ -133,8 +133,7 @@
         background-color: #dddddd;
         z-index: 100;
         position: absolute;
-        // top:90px;
-        top:0px;
+        //top:90px;
         padding:0px;
         margin:0px;
         position: fixed;
@@ -147,8 +146,7 @@
         background-color: #fafafa;
         z-index: 200;
         position: absolute;
-        // top:90px;
-        top:0px;
+        //top:90px;
         padding:0px;
         margin:0px;
         position: fixed;

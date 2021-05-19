@@ -16,6 +16,7 @@ import { detailsDSA, DataDSA, overviewDSA, landingDSA }   from './Content/Dsa'
 import { detailsFS, DataFS, overviewFS, landingFS } from './Content/FullstackFS'
 import { detailsDA, DataDA, overviewDA, landingDA } from './Content/DataAnalysts'
 import {detailsML, DataML, overviewML, landingML} from './Content/Machine'
+import {detailsSP, DataSP, overviewSP, landingSP} from './Content/Software'
 
 
 const fullstack =() =>{
@@ -46,6 +47,11 @@ const fullstack =() =>{
         ModuleContent= DataML
         OverviewContent =overviewML
         LandingContent = landingML
+    }else if(pathname === "/courses/software_engineer_program"){
+        CDcontent = detailsSP
+        ModuleContent = DataSP
+        OverviewContent =overviewSP
+        LandingContent = landingSP
     }
 
   

@@ -52,7 +52,7 @@ const online = () => {
                                 <div className={styles.comment}>
                                     {/* <p>Offline ( 28 Days )</p> */}
                                     <Link to = { item.link }><button className={styles.button2}>Explore Curriculum</button></Link>
-                                    <Link to = { item.link }><button className={styles.button1}>Schedule a call</button></Link>
+                                    <Link to = { "/courses/FullStack_Web_Development#form" }><button className={styles.button1}>Schedule a call</button></Link>
                                 </div>
                             </div>
                         )

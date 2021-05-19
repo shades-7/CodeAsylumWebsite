@@ -5,10 +5,10 @@
     @include flexcenter(center,center ,column );
     width:100%;
     background-color: $bgcolor;
-    padding: 30px 0px;
+    padding: 80px 0px;
     .Heading{
         @include flexcenter(center,center,column);
-        @include Font(Roboto, 2.5rem, 700, 2.7rem, #000000);
+        @include Font(Roboto, 3rem, 700, 3.2rem, #000000);
     }
 }
 

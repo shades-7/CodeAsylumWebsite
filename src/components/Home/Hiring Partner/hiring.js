@@ -13,7 +13,7 @@ const hiring = () => {
         <Layout>
             <div className={styles.container}>
                 <div className={styles.heading}>
-                <p>Ecosystem  <span style={{color:"#2E368F"}}>Partners</span></p>
+                    <p>Ecosystem  <span style={{color:"#2E368F"}}>Partners</span></p>
                 </div>
                 <div className={styles.subcontainer}>
                     <div className={styles.child1}>
@@ -23,7 +23,7 @@ const hiring = () => {
                                 <div className={styles.company}>Proxy Prep</div>
                             </div>
                             <div className={styles.logo}>
-                                <img src = { faangPath } alt="logo" width="70%" />
+                                <img src = { proxyprep } alt="logo" width="70%" />
                             </div>
                         </div>
                         <div className={styles.box}>
@@ -32,7 +32,7 @@ const hiring = () => {
                                 <div className={styles.company}>FanngPath</div>
                             </div>
                             <div className={styles.logo}>
-                                <img src = { proxyprep } alt="logo" width="70%" />
+                                <img src = { faangPath } alt="logo" width="70%" />
                             </div>
                         </div>  
                     </div>

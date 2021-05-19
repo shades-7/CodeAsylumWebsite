@@ -49,7 +49,7 @@ const Navbar = (props) =>{
                 <Link to={`/Alumni/alumni`} className={styles.link}>Alumni</Link>
                 <Link to={`/Mentor/mentor`} className={styles.link}>Mentors</Link>
                 <div className={styles.space}></div>
-                <Link to={'https://forms.gle/kxc5gi7mqYwnYUEj9'} target='blank' className={styles.button2}>Request Callback</Link>  
+                <Link to={'https://forms.gle/kxc5gi7mqYwnYUEj9'} target='blank' className={styles.button2}>Apply</Link>  
             </div>
 
             <div className={styles.Mobnavbar}>
@@ -78,6 +78,7 @@ const Navbar = (props) =>{
                   </div> 
               </div>
             </div>    
+            {console.log(open)}
         </Layout>
       )
         

@@ -6,7 +6,7 @@ import Icon from '../../../images/flat.png'
 const form = () =>{
     return(
         <>
-            <div className={styles.Container}>
+            <div id="form" className={styles.Container}>
                 <div className={styles.preHeading}>
                     <p>SCHEDULE A <span style={{color:"#2E388E"}}>CALL</span></p>
                 </div>
