@@ -148,9 +148,9 @@
         justify-content: space-around;
         align-items: center;
         width:100%;
-        height: 100vh;
+        height: 90vh;
         background:#fafafa;
-        padding-top: 60px;
+        padding-top: 100px;
     }
 
     .Child2{
@@ -158,49 +158,51 @@
     }
 
     .preHeading{
-        width:80%;
+        width:90%;
         p{
             font-size: 1.2rem;
             line-height: 1.4rem;
         }
-        margin: 3.5rem 0rem 1rem 0rem;
+        margin-bottom: 0rem;
+        padding-bottom: 0.5rem;
     }
 
     .heading{
-         width:80%;
-         height:auto;
+         width:90%;
         p{
             font-size: 3rem;
             line-height: 3.2rem;
         }
         margin-bottom: 0rem;
+        padding-bottom: 0.5rem;
     }
     .subheading{
-        width: 80%;
-        height:auto;
+        width: 90%;
+        padding-bottom: 0.5rem;
         p{
             font-size: 30px;
             line-height: 62px;
         }
+        margin-bottom: 0rem;
     }
     .containt{
-        width: 80%;
-        height:auto;
+        width: 90%;
         p{
         font-size: 18px;
         line-height: 22px;
         }
+        margin-bottom: 0rem;
     }
     .button{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height:20%;
-        width: 80%;
+        width: 90%;
         margin-top: 0rem;
+        padding:2rem 0rem;
     }
     .button1{
-        height:40%;
+        height:2.5rem;
         width:45%;
         border: solid 3px #2E368F;
         border-radius: 4px;
@@ -208,7 +210,7 @@
         font-weight: bold;
     }
     .button2{
-        height:40%;
+        height:2.8rem;
         width:45%;
     }
 
